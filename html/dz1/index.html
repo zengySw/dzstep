@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    // 1. Приветствие пользователя
+    let name = prompt("Введите ваше имя:");
+    alert("Привет, " + name + "!");
+
+    // 2. Вычисление возраста
+    const CURRENT_YEAR = 2025; // текущий год
+    let birthYear = prompt("Введите год вашего рождения:");
+    let age = CURRENT_YEAR - Number(birthYear);
+    alert("Вам " + age + " лет.");
+
+    // 3. Периметр квадрата
+    let squareSide = prompt("Введите длину стороны квадрата (в см):");
+    let perimeter = 4 * Number(squareSide);
+    alert("Периметр квадрата: " + perimeter + " см");
+
+    // 4. Площадь окружности
+    let radius = prompt("Введите радиус окружности (в см):");
+    let area = Math.PI * Math.pow(Number(radius), 2);
+    alert("Площадь окружности: " + area.toFixed(2) + " см²");
+
+    // 5. Скорость для поездки
+    let distance = prompt("Введите расстояние между городами (в км):");
+    let time = prompt("За сколько часов хотите добраться?");
+    let speed = Number(distance) / Number(time);
+    alert("Необходимая скорость: " + speed.toFixed(2) + " км/ч");
+
+    // 6. Конвертер валют (доллары → евро)
+    const USD_TO_EUR = 0.92; // курс валют
+    let dollars = prompt("Введите сумму в долларах:");
+    let euros = Number(dollars) * USD_TO_EUR;
+    alert(dollars + " долларов = " + euros.toFixed(2) + " евро");
+
+    // 7. Сколько файлов помещается на флешку
+    let flashDriveGb = prompt("Введите объем флешки в Гб:");
+    const FILE_SIZE_MB = 820; // размер одного файла в Мб
+    let flashDriveMb = Number(flashDriveGb) * 1024; // переводим Гб в Мб
+    let filesCount = Math.floor(flashDriveMb / FILE_SIZE_MB);
+    alert("На флешку помещается " + filesCount + " файлов размером " + FILE_SIZE_MB + " Мб");
+
+</script>
+
+</html>
