@@ -1,56 +1,273 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <title>JS Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        center {
+            margin: 20px 0;
+        }
+        .task {
+            margin-bottom: 15px;
+        }
+        input, button {
+            margin: 5px;
+            padding: 5px;
+        }
+        .result {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
 </head>
-
 <body>
+    <h1>Tasks</h1>
+    
+    <center>1</center>
+    <div class="task">
+        <input type="number" id="task1-input" placeholder="Введите число">
+        <button onclick="checkNumber()">Проверить</button>
+        <div id="task1-result" class="result"></div>
+        <script>
+            function checkNumber() {
+                let value = Number(document.getElementById('task1-input').value);
+                let result = document.getElementById('task1-result');
+                if (value > 0) {
+                    result.textContent = value + " больше нуля";
+                } else if (value < 0) {
+                    result.textContent = value + " меньше нуля";
+                } else {
+                    result.textContent = "Это ноль";
+                }
+            }
+        </script>
+    </div>
 
+    <center>2</center>
+    <div class="task">
+        <input type="number" id="task2-input" placeholder="Сколько тебе лет?">
+        <button onclick="checkAge()">Проверить</button>
+        <div id="task2-result" class="result"></div>
+        <script>
+            function checkAge() {
+                let age = Number(document.getElementById('task2-input').value);
+                let result = document.getElementById('task2-result');
+                if (age < 0) {
+                    result.textContent = "Ты из будущего?";
+                } else if (age <= 10) {
+                    result.textContent = "Маленький ребенок";
+                } else if (age <= 18) {
+                    result.textContent = "Подросток";
+                } else if (age <= 35) {
+                    result.textContent = "Молодой взрослый";
+                } else if (age <= 55) {
+                    result.textContent = "Взрослый";
+                } else if (age <= 85) {
+                    result.textContent = "Пожилой";
+                } else if (age <= 120) {
+                    result.textContent = "Очень старый";
+                } else {
+                    result.textContent = "Так не бывает!";
+                }
+            }
+        </script>
+    </div>
+
+    <center>3</center>
+    <div class="task">
+        <input type="number" id="task3-input" placeholder="Введите число">
+        <button onclick="getAbsolute()">Проверить</button>
+        <div id="task3-result" class="result"></div>
+        <script>
+            function getAbsolute() {
+                let number = Number(document.getElementById('task3-input').value);
+                let result = document.getElementById('task3-result');
+                if (number >= 0) {
+                    result.textContent = "Модуль = " + number;
+                } else {
+                    result.textContent = "Модуль = " + (-number);
+                }
+            }
+        </script>
+    </div>
+
+    <center>4</center>
+    <div class="task">
+        <input type="number" id="task4-hours" placeholder="Часы">
+        <input type="number" id="task4-minutes" placeholder="Минуты">
+        <input type="number" id="task4-seconds" placeholder="Секунды">
+        <button onclick="validateTime()">Проверить</button>
+        <div id="task4-result" class="result"></div>
+        <script>
+            function validateTime() {
+                let hours = Number(document.getElementById('task4-hours').value);
+                let minutes = Number(document.getElementById('task4-minutes').value);
+                let seconds = Number(document.getElementById('task4-seconds').value);
+                let result = document.getElementById('task4-result');
+                if (hours < 0 || hours >= 24) {
+                    result.textContent = "Некорректные часы!";
+                } else if (minutes < 0 || minutes >= 60) {
+                    result.textContent = "Некорректные минуты!";
+                } else if (seconds < 0 || seconds >= 60) {
+                    result.textContent = "Некорректные секунды!";
+                } else {
+                    result.textContent = "Время корректно";
+                }
+            }
+        </script>
+    </div>
+
+    <center>5</center>
+    <div class="task">
+        <input type="number" id="task5-x" placeholder="Введите X">
+        <input type="number" id="task5-y" placeholder="Введите Y">
+        <button onclick="checkQuadrant()">Проверить</button>
+        <div id="task5-result" class="result"></div>
+        <script>
+            function checkQuadrant() {
+                let coordX = Number(document.getElementById('task5-x').value);
+                let coordY = Number(document.getElementById('task5-y').value);
+                let result = document.getElementById('task5-result');
+                if (coordX > 0 && coordY > 0) {
+                    result.textContent = "Первая четверть";
+                } else if (coordX < 0 && coordY > 0) {
+                    result.textContent = "Вторая четверть";
+                } else if (coordX < 0 && coordY < 0) {
+                    result.textContent = "Третья четверть";
+                } else if (coordX > 0 && coordY < 0) {
+                    result.textContent = "Четвёртая четверть";
+                } else {
+                    result.textContent = "Точка на осях";
+                }
+            }
+        </script>
+    </div>
+
+    <center>6</center>
+    <div class="task">
+        <input type="number" id="task6-input" placeholder="Введите номер месяца">
+        <button onclick="getMonth()">Проверить</button>
+        <div id="task6-result" class="result"></div>
+        <script>
+            function getMonth() {
+                let monthNum = document.getElementById('task6-input').value;
+                let result = document.getElementById('task6-result');
+                switch (monthNum) {
+                    case "1": result.textContent = "Январь"; break;
+                    case "2": result.textContent = "Февраль"; break;
+                    case "3": result.textContent = "Март"; break;
+                    case "4": result.textContent = "Апрель"; break;
+                    case "5": result.textContent = "Май"; break;
+                    case "6": result.textContent = "Июнь"; break;
+                    case "7": result.textContent = "Июль"; break;
+                    case "8": result.textContent = "Август"; break;
+                    case "9": result.textContent = "Сентябрь"; break;
+                    case "10": result.textContent = "Октябрь"; break;
+                    case "11": result.textContent = "Ноябрь"; break;
+                    case "12": result.textContent = "Декабрь"; break;
+                    default: result.textContent = "Нет такого месяца";
+                }
+            }
+        </script>
+    </div>
+
+    <center>7</center>
+    <div class="task">
+        <input type="number" id="task7-num1" placeholder="Введите первое число">
+        <select id="task7-operator">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+        </select>
+        <input type="number" id="task7-num2" placeholder="Введите второе число">
+        <button onclick="calculate()">Рассчитать</button>
+        <div id="task7-result" class="result"></div>
+        <script>
+            function calculate() {
+                let firstNum = Number(document.getElementById('task7-num1').value);
+                let operator = document.getElementById('task7-operator').value;
+                let secondNum = Number(document.getElementById('task7-num2').value);
+                let result = document.getElementById('task7-result');
+                switch (operator) {
+                    case "+": result.textContent = firstNum + secondNum; break;
+                    case "-": result.textContent = firstNum - secondNum; break;
+                    case "*": result.textContent = firstNum * secondNum; break;
+                    case "/":
+                        if (secondNum === 0) {
+                            result.textContent = "Делить на ноль нельзя!";
+                        } else {
+                            result.textContent = firstNum / secondNum;
+                        }
+                        break;
+                    default: result.textContent = "Неизвестная операция";
+                }
+            }
+        </script>
+    </div>
+
+    <center>8</center>
+    <div class="task">
+        <input type="number" id="task8-num1" placeholder="Первое число">
+        <input type="number" id="task8-num2" placeholder="Второе число">
+        <button onclick="compareNumbers()">Сравнить</button>
+        <div id="task8-result" class="result"></div>
+        <script>
+            function compareNumbers() {
+                let one = Number(document.getElementById('task8-num1').value);
+                let two = Number(document.getElementById('task8-num2').value);
+                let result = document.getElementById('task8-result');
+                if (one > two) {
+                    result.textContent = one + " больше " + two;
+                } else if (one < two) {
+                    result.textContent = one + " меньше " + two;
+                } else {
+                    result.textContent = "Они равны";
+                }
+            }
+        </script>
+    </div>
+
+    <center>9</center>
+    <div class="task">
+        <input type="number" id="task9-input" placeholder="Введите число">
+        <button onclick="checkDivisibility()">Проверить</button>
+        <div id="task9-result" class="result"></div>
+        <script>
+            function checkDivisibility() {
+                let testNum = Number(document.getElementById('task9-input').value);
+                let result = document.getElementById('task9-result');
+                if (testNum % 5 === 0) {
+                    result.textContent = testNum + " делится на 5";
+                } else {
+                    result.textContent = testNum + " не делится на 5";
+                }
+            }
+        </script>
+    </div>
+
+    <center>10</center>
+    <div class="task">
+        <input type="text" id="task10-input" placeholder="На какой планете ты живешь?">
+        <button onclick="checkPlanet()">Проверить</button>
+        <div id="task10-result" class="result"></div>
+        <script>
+            function checkPlanet() {
+                let planetName = document.getElementById('task10-input').value;
+                let result = document.getElementById('task10-result');
+                if (planetName && planetName.toLowerCase() === "земля") {
+                    result.textContent = "Привет, землянин!";
+                } else {
+                    result.textContent = "Привет, инопланетянин!";
+                }
+            }
+        </script>
+    </div>
 </body>
-
-<script>
-    // 1. Приветствие пользователя
-    let name = prompt("Введите ваше имя:");
-    alert("Привет, " + name + "!");
-
-    // 2. Вычисление возраста
-    const CURRENT_YEAR = 2025; // текущий год
-    let birthYear = prompt("Введите год вашего рождения:");
-    let age = CURRENT_YEAR - Number(birthYear);
-    alert("Вам " + age + " лет.");
-
-    // 3. Периметр квадрата
-    let squareSide = prompt("Введите длину стороны квадрата (в см):");
-    let perimeter = 4 * Number(squareSide);
-    alert("Периметр квадрата: " + perimeter + " см");
-
-    // 4. Площадь окружности
-    let radius = prompt("Введите радиус окружности (в см):");
-    let area = Math.PI * Math.pow(Number(radius), 2);
-    alert("Площадь окружности: " + area.toFixed(2) + " см²");
-
-    // 5. Скорость для поездки
-    let distance = prompt("Введите расстояние между городами (в км):");
-    let time = prompt("За сколько часов хотите добраться?");
-    let speed = Number(distance) / Number(time);
-    alert("Необходимая скорость: " + speed.toFixed(2) + " км/ч");
-
-    // 6. Конвертер валют (доллары → евро)
-    const USD_TO_EUR = 0.92; // курс валют
-    let dollars = prompt("Введите сумму в долларах:");
-    let euros = Number(dollars) * USD_TO_EUR;
-    alert(dollars + " долларов = " + euros.toFixed(2) + " евро");
-
-    // 7. Сколько файлов помещается на флешку
-    let flashDriveGb = prompt("Введите объем флешки в Гб:");
-    const FILE_SIZE_MB = 820; // размер одного файла в Мб
-    let flashDriveMb = Number(flashDriveGb) * 1024; // переводим Гб в Мб
-    let filesCount = Math.floor(flashDriveMb / FILE_SIZE_MB);
-    alert("На флешку помещается " + filesCount + " файлов размером " + FILE_SIZE_MB + " Мб");
-
-</script>
-
 </html>
