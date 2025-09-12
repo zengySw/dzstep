@@ -56,19 +56,22 @@
 // }
 // console.log(countG)
 
-let h1 = parseInt(prompt("enter min num", 0));
-let h2 = parseInt(prompt("enter max num", 12));
-let countH = 0;
-for (let count = h1; count <= h2; count++) {
-    if (countH == 0) {
-        countH = 0;
-        console.log(count);
-    }
-    else {
-        countH++;
-    }
-    console.log(`test ${count}`)
-}
+    // let h1 = parseInt(prompt("enter min num", 0));
+    // let h2 = parseInt(prompt("enter max num", 12));
+    // let countH = 0;
+    // for (let count = h1; count <= h2; count++) {
+    //     if (countH == 0) {
+    //         countH = 0;
+    //         console.log(count);
+    //     }
+    //     else {
+    //         countH++;
+    //     }
+    //     console.log(`test ${count}`)
+    // }
 
-let i = parseInt(prompt(""))
-for (let count = 0; count < )
+let i = +prompt("Введите число");
+  if (i > 1) {
+    for (var i1 = 2; i1 < i && i % i1; i1++);
+    alert(i1 == i ? "простое" : "не простое");
+  } else alert("не простое");
