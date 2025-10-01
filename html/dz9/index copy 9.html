@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+function isLeapYear(year) {
+    if (year % 400 === 0) return true;
+    if (year % 100 === 0) return false;
+    if (year % 4 === 0) return true;
+    return false;
+}
+function nextDate(day, month, year) {
+    let daysInMonth = [0,31,28,31,30,31,30,31,31,30,31,30,31];
+    if (month === 2 && isLeapYear(year)) {
+        daysInMonth[2] = 29;
+    }
+    day = day + 1;
+    if (day > daysInMonth[month]) {
+        day = 1;
+        month = month + 1;
+        if (month > 12) {
+            month = 1;
+            year = year + 1;
+        }
+    }
+    let dd = day < 10 ? "0" + day : day;
+    let mm = month < 10 ? "0" + month : month;
+    return dd + "." + mm + "." + year;
+}
+console.log('10) nextDate(28,2,2021) =', nextDate(28,2,2021));
+console.log('10) nextDate(28,2,2020) =', nextDate(28,2,2020)); 
+console.log('10) nextDate(31,12,2023) =', nextDate(31,12,2023));
+
+
+</script>
+</html>

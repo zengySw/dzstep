@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+
+function maxUpToFive(a, b, c, d, e) {
+    let arr = [a, b, c, d, e];
+    let max = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] !== undefined && arr[i] > max) {
+            max = arr[i];
+        }
+    }
+    return max;
+}
+console.log('8) maxUpToFive(3,7,2) =', maxUpToFive(3, 7, 2));
+
+
+</script>
+</html>
