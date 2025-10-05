@@ -3,52 +3,42 @@
 #include <cstring>
 using namespace std;
 
-int str::object_count = 0;
-int str::total_length = 0;
-int str::max_length = 0;
+int str::obj_count = 0;
 
 str::str() {
     length = 80;
     line = new char[length + 1];
     line[0] = '\0';
-    object_count++;
-    total_length += length;
-    if (length > max_length) max_length = length;
+    obj_count++;
 }
 
-str::str(int Plength) {
-    if (Plength < 0) {
+str::str(int p_length) {
+    if (p_length < 0) {
         cout << "error length" << endl;
         length = 1;
         line = new char[1];
         line[0] = '\0';
     }
     else {
-        length = Plength;
+        length = p_length;
         line = new char[length + 1];
         line[0] = '\0';
     }
-    object_count++;
-    total_length += length;
-    if (length > max_length) max_length = length;
+    obj_count++;
 }
 
 str::str(const str& obj) {
     length = strlen(obj.line);
     line = new char[length + 1];
     strcpy_s(line, length + 1, obj.line);
-    object_count++;
-    total_length += length;
-    if (length > max_length) max_length = length;
+    obj_count++;
 }
 
-str::str(const char* Pchar) {
-    length = strlen(Pchar);
+str::str(const char* p_char) {
+    length = strlen(p_char);
     line = new char[length + 1];
-    strcpy_s(line, length + 1, Pchar);
-    object_count++;
-    total_length += length;
-    if (length > max_length) max_length = length;
+    strcpy_s(line, length + 1, p_char);
+    obj_count++;
 }
 
 str::str(str&& other) {
@@ -56,15 +46,12 @@ str::str(str&& other) {
     length = other.length;
     other.line = nullptr;
     other.length = 0;
-    object_count++;
-    total_length += length;
-    if (length > max_length) max_length = length;
+    obj_count++;
 }
 
 str::~str() {
     delete[] line;
-    object_count--;
-    total_length -= length;
+    obj_count--;
 }
 
 void str::print() {
@@ -83,18 +70,18 @@ void str::input() {
     strcpy_s(line, length + 1, temp);
 }
 
-void str::Mylinecpy(str& obj) {
+void str::myline_cpy(str& obj) {
     delete[] line;
     length = strlen(obj.line);
     line = new char[length + 1];
     strcpy_s(line, length + 1, obj.line);
 }
 
-bool str::Mylineline(const char* liner) {
+bool str::myline_line(const char* liner) {
     return strstr(line, liner) != nullptr;
 }
 
-int str::MyChr(char c) {
+int str::my_chr(char c) {
     for (int i = 0; i < strlen(line); i++) {
         if (line[i] == c)
             return i;
@@ -102,11 +89,11 @@ int str::MyChr(char c) {
     return -1;
 }
 
-int str::MylineLen() {
+int str::myline_len() {
     return strlen(line);
 }
 
-void str::MylineCat(str& b) {
+void str::myline_cat(str& b) {
     int new_len = strlen(line) + strlen(b.line);
     char* temp = new char[new_len + 1];
     strcpy_s(temp, new_len + 1, line);
@@ -116,7 +103,7 @@ void str::MylineCat(str& b) {
     length = new_len;
 }
 
-void str::MyDelChr(char c) {
+void str::my_del_chr(char c) {
     int i = 0, j = 0;
     while (line[i]) {
         if (line[i] != c) {
@@ -127,7 +114,7 @@ void str::MyDelChr(char c) {
     line[j] = '\0';
 }
 
-int str::MylineCmp(str& b) {
+int str::myline_cmp(str& b) {
     return strcmp(line, b.line);
 }
 
@@ -150,32 +137,40 @@ str& str::operator=(str&& other) {
     return *this;
 }
 
-int str::get_object_count() { return object_count; }
-int str::get_total_length() { return total_length; }
-int str::get_max_length() { return max_length; }
+const char* str::get_line() const {
+    return line;
+}
 
-void str::print_stats() {
-    cout << "Objects alive: " << object_count << endl;
-    cout << "Total length: " << total_length << endl;
-    cout << "Max length: " << max_length << endl;
+int str::get_length() const {
+    return length;
+}
+
+void str::set_line(const char* new_line) {
+    delete[] line;
+    length = strlen(new_line);
+    line = new char[length + 1];
+    strcpy_s(line, length + 1, new_line);
+}
+
+int str::get_obj_count() {
+    return obj_count;
 }
 
 int main() {
     str s1("Hello");
     str s2(" World");
 
-    cout << "s1: ";
+    cout << "Objects alive: " << str::get_obj_count() << endl;
+
+    s1.myline_cat(s2);
+    cout << "After concat: ";
     s1.print();
 
-    cout << "s2: ";
+    cout << "Length: " << s1.get_length() << endl;
+
+    s2.set_line("New string!");
+    cout << "s2 updated: ";
     s2.print();
 
-    s1.MylineCat(s2);
-
-    cout << "After concatenation: ";
-    s1.print();
-
-    cout << "Length: " << s1.MylineLen() << endl;
-
-    str::print_stats();
+    cout << "Objects alive: " << str::get_obj_count() << endl;
 }
