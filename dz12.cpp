@@ -5,7 +5,7 @@ class Geometry {
 private:
     static int calc_count;
 
-    // простая функция для вычисления квадратного корня методом Ньютона
+    // квадратный корень методом Ньютона
     static double my_sqrt(double x) {
         if (x <= 0) return 0;
         double guess = x / 2;
