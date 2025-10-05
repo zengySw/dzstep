@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            padding: 8px;
+        }
+
+        tfoot td {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <table id="statsTable">
+        <tr>
+            <th>Месяц</th>
+            <th>Отдел 1</th>
+            <th>Отдел 2</th>
+        </tr>
+        <tr><td>Январь</td><td>50</td><td>120</td></tr>
+        <tr><td>Февраль</td><td>60</td><td>140</td></tr>
+        <tr><td>Март</td><td>125</td><td>115</td></tr>
+        <tr><td>Апрель</td><td>87</td><td>100</td></tr>
+        <tr><td>Май</td><td>95</td><td>80</td></tr>
+        <tr><td>Июнь</td><td>115</td><td>90</td></tr>
+        <tr><td>Июль</td><td>125</td><td>100</td></tr>
+    </table>
+
+    <div id="result"></div>
+
+    <script>
+        /*
+        Задание:
+        Добавьте строку "Итого" для таблицы statsTable. Напишите сценарий, которым выведите во вторую ячейку этой строки сумму всех числовых значений второй колонки.
+        Выведите в третью ячейку этой строки сумму всех числовых значений из третьей колонки таблицы.
+        В div с id result выведите сообщение "Отдел 1 сделал больше продаж" или "Отдел 2 сделал больше продаж"
+        */
+
+        const table = document.getElementById("statsTable");
+        const rows = table.rows;
+        let sumDept1 = 0;
+        let sumDept2 = 0;
+
+        // начинаем с 1, чтобы пропустить заголовок
+        for (let i = 1; i < rows.length; i++) {
+            sumDept1 += Number(rows[i].cells[1].textContent);
+            sumDept2 += Number(rows[i].cells[2].textContent);
+        }
+
+        // создаём строку Итого
+        const totalRow = table.insertRow();
+        const cellLabel = totalRow.insertCell(0);
+        const cellDept1 = totalRow.insertCell(1);
+        const cellDept2 = totalRow.insertCell(2);
+
+        cellLabel.textContent = "Итого";
+        cellDept1.textContent = sumDept1;
+        cellDept2.textContent = sumDept2;
+
+        // сообщение о победителе
+        const resultDiv = document.getElementById("result");
+        if (sumDept1 > sumDept2) {
+            resultDiv.textContent = "Отдел 1 сделал больше продаж";
+        } else if (sumDept2 > sumDept1) {
+            resultDiv.textContent = "Отдел 2 сделал больше продаж";
+        } else {
+            resultDiv.textContent = "Оба отдела поработали одинаково (что подозрительно)";
+        }
+    </script>
+</body>
+</html>
