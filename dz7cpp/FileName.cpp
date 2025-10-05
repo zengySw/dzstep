@@ -1,13 +1,19 @@
 #include <iostream>
 #include "str.h"
 #include <cstring>
-
 using namespace std;
+
+int str::object_count = 0;
+int str::total_length = 0;
+int str::max_length = 0;
 
 str::str() {
     length = 80;
     line = new char[length + 1];
     line[0] = '\0';
+    object_count++;
+    total_length += length;
+    if (length > max_length) max_length = length;
 }
 
 str::str(int Plength) {
@@ -22,18 +28,27 @@ str::str(int Plength) {
         line = new char[length + 1];
         line[0] = '\0';
     }
+    object_count++;
+    total_length += length;
+    if (length > max_length) max_length = length;
 }
 
 str::str(const str& obj) {
     length = strlen(obj.line);
     line = new char[length + 1];
     strcpy_s(line, length + 1, obj.line);
+    object_count++;
+    total_length += length;
+    if (length > max_length) max_length = length;
 }
 
 str::str(const char* Pchar) {
     length = strlen(Pchar);
     line = new char[length + 1];
     strcpy_s(line, length + 1, Pchar);
+    object_count++;
+    total_length += length;
+    if (length > max_length) max_length = length;
 }
 
 str::str(str&& other) {
@@ -41,10 +56,15 @@ str::str(str&& other) {
     length = other.length;
     other.line = nullptr;
     other.length = 0;
+    object_count++;
+    total_length += length;
+    if (length > max_length) max_length = length;
 }
 
 str::~str() {
     delete[] line;
+    object_count--;
+    total_length -= length;
 }
 
 void str::print() {
@@ -130,7 +150,15 @@ str& str::operator=(str&& other) {
     return *this;
 }
 
+int str::get_object_count() { return object_count; }
+int str::get_total_length() { return total_length; }
+int str::get_max_length() { return max_length; }
 
+void str::print_stats() {
+    cout << "Objects alive: " << object_count << endl;
+    cout << "Total length: " << total_length << endl;
+    cout << "Max length: " << max_length << endl;
+}
 
 int main() {
     str s1("Hello");
@@ -148,4 +176,6 @@ int main() {
     s1.print();
 
     cout << "Length: " << s1.MylineLen() << endl;
+
+    str::print_stats();
 }

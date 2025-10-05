@@ -8,6 +8,10 @@ private:
     char* line;
     int length;
 
+    static int object_count;
+    static int total_length;
+    static int max_length;
+
 public:
     str();                
     str(int Plength);      
@@ -28,4 +32,9 @@ public:
 
     str& operator=(const str& other);
     str& operator=(str&& other);     
+
+    static int get_object_count();
+    static int get_total_length();
+    static int get_max_length();
+    static void print_stats();
 };
