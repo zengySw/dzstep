@@ -5,22 +5,17 @@ using namespace std;
 
 MyVector::MyVector(int n) {
     size = n;
-    data = (size > 0) ? new int[size] : nullptr;
+    if (size > 0)
+        data = new int[size];
+    else
+        data = nullptr;
 }
 
 MyVector::MyVector(const MyVector& other) {
     size = other.size;
-    data = (size > 0) ? new int[size] : nullptr;
+    data = new int[size];
     for (int i = 0; i < size; i++)
         data[i] = other.data[i];
-}
-
-MyVector::MyVector(MyVector&& other) noexcept {
-    size = other.size;
-    data = other.data;
-
-    other.size = 0;
-    other.data = nullptr;
 }
 
 MyVector::~MyVector() {
@@ -33,60 +28,31 @@ MyVector& MyVector::operator=(const MyVector& other) {
 
     delete[] data;
     size = other.size;
-    data = (size > 0) ? new int[size] : nullptr;
+    data = new int[size];
     for (int i = 0; i < size; i++)
         data[i] = other.data[i];
-
     return *this;
-}
-
-int& MyVector::operator[](int index) {
-    if (index < 0 || index >= size) {
-        cout << "Ошибка: индекс вне диапазона!\n";
-        exit(1);
-    }
-    return data[index];
 }
 
 MyVector MyVector::operator+(const MyVector& other) const {
     if (size != other.size) {
-        cout << "Ошибка: разные размеры векторов!\n";
+        cout << "Ошибка: размеры векторов не совпадают!" << endl;
         exit(1);
     }
+
     MyVector result(size);
     for (int i = 0; i < size; i++)
-        result.data[i] = data[i] + other.data[i];
+        result.setElement(i, data[i] + other.getElement(i));
+
     return result;
 }
 
-MyVector& MyVector::operator++() {
-    int* newData = new int[size + 1];
-    for (int i = 0; i < size; i++)
-        newData[i] = data[i];
-    newData[size] = 0;
-
-    delete[] data;
-    data = newData;
-    size++;
-
-    return *this;
-}
-
-MyVector& MyVector::operator--() {
-    if (size == 0) {
-        cout << "Ошибка: вектор пуст, нечего удалять!\n";
-        return *this;
+int& MyVector::operator[](int index) {
+    if (index < 0 || index >= size) {
+        cout << "Ошибка: индекс вне диапазона!" << endl;
+        exit(1);
     }
-
-    int* newData = (size > 1) ? new int[size - 1] : nullptr;
-    for (int i = 0; i < size - 1; i++)
-        newData[i] = data[i];
-
-    delete[] data;
-    data = newData;
-    size--;
-
-    return *this;
+    return data[index];
 }
 
 void MyVector::input() {
@@ -98,19 +64,35 @@ void MyVector::input() {
 }
 
 void MyVector::show() const {
+    cout << "Элементы вектора: ";
     for (int i = 0; i < size; i++)
         cout << data[i] << " ";
     cout << endl;
 }
 
 void MyVector::showReversed() const {
+    cout << "Элементы вектора (обратно): ";
     for (int i = size - 1; i >= 0; i--)
         cout << data[i] << " ";
     cout << endl;
 }
 
-ostream& operator<<(ostream& out, const MyVector& v) {
-    for (int i = 0; i < v.size; i++)
-        out << v.data[i] << " ";
-    return out;
+int MyVector::getSize() const {
+    return size;
+}
+
+int MyVector::getElement(int index) const {
+    if (index < 0 || index >= size) {
+        cout << "Ошибка: индекс вне диапазона!" << endl;
+        exit(1);
+    }
+    return data[index];
+}
+
+void MyVector::setElement(int index, int value) {
+    if (index < 0 || index >= size) {
+        cout << "Ошибка: индекс вне диапазона!" << endl;
+        exit(1);
+    }
+    data[index] = value;
 }

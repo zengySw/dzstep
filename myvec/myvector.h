@@ -11,22 +11,21 @@ private:
 
 public:
     MyVector(int n = 0);
-    MyVector(const MyVector& other);     
-    MyVector(MyVector&& other) noexcept;   
+    MyVector(const MyVector& other);
     ~MyVector();
 
-    MyVector& operator=(const MyVector& other);  
-    int& operator[](int index);
+    MyVector& operator=(const MyVector& other);
     MyVector operator+(const MyVector& other) const;
-
-    MyVector& operator++();      
-    MyVector& operator--();      
+    int& operator[](int index);
 
     void input();
     void show() const;
     void showReversed() const;
 
-    friend ostream& operator<<(ostream& out, const MyVector& v);
+    // Геттеры и сеттеры
+    int getSize() const;
+    int getElement(int index) const;
+    void setElement(int index, int value);
 };
 
 #endif
