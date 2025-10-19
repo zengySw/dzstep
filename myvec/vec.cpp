@@ -1,21 +1,26 @@
-#include "myvector.h"
+#include "MyVector.h"
 #include <iostream>
 #include <cstdlib>
 using namespace std;
 
 MyVector::MyVector(int n) {
     size = n;
-    if (size > 0)
-        data = new int[size];
-    else
-        data = nullptr;
+    data = (size > 0) ? new int[size] : nullptr;
 }
 
 MyVector::MyVector(const MyVector& other) {
     size = other.size;
-    data = new int[size];
+    data = (size > 0) ? new int[size] : nullptr;
     for (int i = 0; i < size; i++)
         data[i] = other.data[i];
+}
+
+MyVector::MyVector(MyVector&& other) noexcept {
+    size = other.size;
+    data = other.data;
+
+    other.size = 0;
+    other.data = nullptr;
 }
 
 MyVector::~MyVector() {
@@ -28,9 +33,10 @@ MyVector& MyVector::operator=(const MyVector& other) {
 
     delete[] data;
     size = other.size;
-    data = new int[size];
+    data = (size > 0) ? new int[size] : nullptr;
     for (int i = 0; i < size; i++)
         data[i] = other.data[i];
+
     return *this;
 }
 
@@ -51,6 +57,36 @@ MyVector MyVector::operator+(const MyVector& other) const {
     for (int i = 0; i < size; i++)
         result.data[i] = data[i] + other.data[i];
     return result;
+}
+
+MyVector& MyVector::operator++() {
+    int* newData = new int[size + 1];
+    for (int i = 0; i < size; i++)
+        newData[i] = data[i];
+    newData[size] = 0;
+
+    delete[] data;
+    data = newData;
+    size++;
+
+    return *this;
+}
+
+MyVector& MyVector::operator--() {
+    if (size == 0) {
+        cout << "Ошибка: вектор пуст, нечего удалять!\n";
+        return *this;
+    }
+
+    int* newData = (size > 1) ? new int[size - 1] : nullptr;
+    for (int i = 0; i < size - 1; i++)
+        newData[i] = data[i];
+
+    delete[] data;
+    data = newData;
+    size--;
+
+    return *this;
 }
 
 void MyVector::input() {

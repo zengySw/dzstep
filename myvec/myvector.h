@@ -11,12 +11,16 @@ private:
 
 public:
     MyVector(int n = 0);
-    MyVector(const MyVector& other);
+    MyVector(const MyVector& other);     
+    MyVector(MyVector&& other) noexcept;   
     ~MyVector();
 
-    MyVector& operator=(const MyVector& other);
+    MyVector& operator=(const MyVector& other);  
     int& operator[](int index);
     MyVector operator+(const MyVector& other) const;
+
+    MyVector& operator++();      
+    MyVector& operator--();      
 
     void input();
     void show() const;

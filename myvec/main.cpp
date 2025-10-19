@@ -1,31 +1,27 @@
 #include <iostream>
-#include "myvector.h"
+#include "MyVector.h"
 using namespace std;
 
 int main() {
-	setlocale(LC_ALL, "RU");
     int n;
     cout << "Введите размер вектора: ";
     cin >> n;
 
-    MyVector v1(n), v2(n);
-
-    cout << "\nВведите элементы первого вектора:\n";
+    MyVector v1(n);
     v1.input();
 
-    cout << "\nВведите элементы второго вектора:\n";
-    v2.input();
+    cout << "\nИсходный вектор: " << v1 << endl;
 
-    cout << "\nПервый вектор: " << v1 << endl;
-    cout << "Второй вектор: " << v2 << endl;
+    ++v1;
+    cout << "После ++ (добавлен элемент 0): " << v1 << endl;
 
-    MyVector v3 = v1 + v2;
-    cout << "\nСумма векторов: " << v3 << endl;
+    --v1;
+    cout << "После -- (удалён последний элемент): " << v1 << endl;
 
-    cout << "\nПервый вектор в обратном порядке:\n";
-    v1.showReversed();
+    MyVector v2 = v1; // копирующий конструктор
+    cout << "\nСкопированный вектор: " << v2 << endl;
 
-    cout << "\nДоступ к элементу по индексу [2]: " << v1[2] << endl;
+    MyVector v3 = move(v1); // конструктор переноса
+    cout << "Перемещённый вектор: " << v3 << endl;
 
-    return 0;
 }
