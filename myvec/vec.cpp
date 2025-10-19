@@ -70,18 +70,18 @@ void MyVector::show() const {
     cout << endl;
 }
 
-void MyVector::showReversed() const {
+void MyVector::show_Reversed() const {
     cout << "Элементы вектора (обратно): ";
     for (int i = size - 1; i >= 0; i--)
         cout << data[i] << " ";
     cout << endl;
 }
 
-int MyVector::getSize() const {
+int MyVector::get_Size() const {
     return size;
 }
 
-int MyVector::getElement(int index) const {
+int MyVector::get_Element(int index) const {
     if (index < 0 || index >= size) {
         cout << "Ошибка: индекс вне диапазона!" << endl;
         exit(1);
@@ -89,7 +89,7 @@ int MyVector::getElement(int index) const {
     return data[index];
 }
 
-void MyVector::setElement(int index, int value) {
+void MyVector::set_Element(int index, int value) {
     if (index < 0 || index >= size) {
         cout << "Ошибка: индекс вне диапазона!" << endl;
         exit(1);

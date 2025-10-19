@@ -20,12 +20,11 @@ public:
 
     void input();
     void show() const;
-    void showReversed() const;
+    void show_Reversed() const;
 
-    // Геттеры и сеттеры
-    int getSize() const;
-    int getElement(int index) const;
-    void setElement(int index, int value);
+    int get_Size() const;
+    int get_Element(int index) const;
+    void set_Element(int index, int value);
 };
 
 #endif

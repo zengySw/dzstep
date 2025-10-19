@@ -26,12 +26,12 @@ int main() {
     v3.show();
 
     cout << "\nПервый вектор в обратном порядке:\n";
-    v1.showReversed();
+    v1.show_Reversed();
 
-    cout << "\nРазмер вектора v1: " << v1.getSize() << endl;
-    cout << "Третий элемент v1: " << v1.getElement(2) << endl;
+    cout << "\nРазмер вектора v1: " << v1.get_Size() << endl;
+    cout << "Третий элемент v1: " << v1.get_Element(2) << endl;
 
-    v1.setElement(2, 999);
+    v1.set_Element(2, 999);
     cout << "После изменения третьего элемента:\n";
     v1.show();
 
