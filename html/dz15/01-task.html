@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 01</title>
+</head>
+
+<body>
+  <template id="template">
+    <div>
+      Название книги: <span id="titlePlaceholder"></span> <br />
+      Автор: <span id="authorPlaceholder"></span>
+      <hr />
+    </div>
+  </template>
+
+  <div id="bookList"></div>
+
+  <script>
+    let books = [
+      { title: "JavaScript. Полное руководство 7-е издание", author: "Дэвид Флэнаган" },
+      { title: "JavaScript. Шаблоны", author: "Стоян Стефанов" },
+      { title: "Секреты JavaScript ниндзя", author: "Джон Резиг" }
+    ];
+
+    const container = document.getElementById("bookList");
+    const template = document.getElementById("template");
+
+    books.forEach(book => {
+      const clone = template.content.cloneNode(true);
+      clone.getElementById("titlePlaceholder").textContent = book.title;
+      clone.getElementById("authorPlaceholder").textContent = book.author;
+      container.appendChild(clone);
+    });
+  </script>
+</body>
+
+</html>
