@@ -25,6 +25,9 @@ public:
     int get_Size() const;
     int get_Element(int index) const;
     void set_Element(int index, int value);
+
+    void random(int from, int to);
+    void add(int elem);
 };
 
 #endif
