@@ -2,6 +2,7 @@
 #define MYVECTOR_H
 
 #include <iostream>
+#include <stdexcept>
 using namespace std;
 
 class MyVector {

@@ -1,21 +1,19 @@
 #include "MyVector.h"
 #include <iostream>
-#include <cstdlib>
-//#include <>
+#include <stdexcept>
 using namespace std;
 
 MyVector::MyVector(int n) {
+    if (n < 0)
+        throw invalid_argument("Vector size cannot be negative!");
     size = n;
-    if (size > 0)
-        data = new int[size];
-    else
-        data = nullptr;
+    data = (n > 0) ? new int[n] : nullptr;
 }
 
 MyVector::MyVector(const MyVector& other) {
     size = other.size;
-    data = new int[size];
-    for (int i = 0; i < size; i++)
+    data = (size > 0) ? new int[size] : nullptr;
+    for (int i = 0; i < size; ++i)
         data[i] = other.data[i];
 }
 
@@ -25,54 +23,50 @@ MyVector::~MyVector() {
 
 MyVector& MyVector::operator=(const MyVector& other) {
     if (this != &other) {
-        int* newData = new int[other.size];
-        for (int i = 0; i < other.size; i++)
-            newData[i] = other.data[i];
         delete[] data;
-        data = newData;
         size = other.size;
+        data = (size > 0) ? new int[size] : nullptr;
+        for (int i = 0; i < size; ++i)
+            data[i] = other.data[i];
     }
     return *this;
-
 }
 
 MyVector MyVector::operator+(const MyVector& other) const {
     if (size != other.size)
-        throw std::invalid_argument("Vectors must be of the same size to add.");
+        throw logic_error("Vectors must have the same size for addition!");
 
     MyVector result(size);
-    for (int i = 0; i < size; i++)
-        result.set_Element(i, data[i] + other.get_Element(i));
-
+    for (int i = 0; i < size; ++i)
+        result.data[i] = data[i] + other.data[i];
     return result;
 }
 
-
 int& MyVector::operator[](int index) {
-    if (index >= size)
-        throw std::out_of_range("Index out of range");
+    if (index < 0 || index >= size)
+        throw out_of_range("Index out of range!");
     return data[index];
-
 }
 
 void MyVector::input() {
-    cout << "enter " << size << " elements:\n";
-    for (int i = 0; i < size; i++) {
-        cout << i + 1 << " element: ";
+    if (size <= 0)
+        throw logic_error("Vector size is zero or negative!");
+    for (int i = 0; i < size; ++i)
         cin >> data[i];
-    }
 }
 
 void MyVector::show() const {
-    cout << "vector elements: ";
-    for (int i = 0; i < size; i++)
+    if (size == 0)
+        throw logic_error("Vector is empty!");
+    for (int i = 0; i < size; ++i)
         cout << data[i] << " ";
     cout << endl;
 }
 
 void MyVector::show_Reversed() const {
-    cout << "vector elements (reversed): ";
-    for (int i = size - 1; i >= 0; i--)
+    if (size == 0)
+        throw logic_error("Vector is empty!");
+    for (int i = size - 1; i >= 0; --i)
         cout << data[i] << " ";
     cout << endl;
 }
@@ -82,29 +76,32 @@ int MyVector::get_Size() const {
 }
 
 int MyVector::get_Element(int index) const {
-    if (index < 0 || index >= size) throw std::out_of_range("Index out of range");
+    if (index < 0 || index >= size)
+        throw out_of_range("Index out of range!");
     return data[index];
 }
 
 void MyVector::set_Element(int index, int value) {
-    if (index < 0 || index >= size) throw std::out_of_range("Index out of range");
+    if (index < 0 || index >= size)
+        throw out_of_range("Index out of range!");
     data[index] = value;
 }
 
 void MyVector::random(int from, int to) {
-    for (int i = 0; i < size; i++)
-    {
-        data[i] = from + rand() % to;
-    }
+    if (from > to)
+        throw invalid_argument("Invalid range for random generation!");
+    for (int i = 0; i < size; ++i)
+        data[i] = rand() % (to - from + 1) + from;
 }
-void MyVector::add(int elem) {
-    int* temp = new int[size + 1];
-    for (int i = 0; i = size + 1; i++) {
-        temp[i] = data[i];
-    }
-    temp[size] = elem;
-    delete[] data;
 
-    size += 1;
-    data = temp;
+void MyVector::add(int elem) {
+    if (size < 0)
+        throw logic_error("Invalid vector state!");
+    int* newData = new int[size + 1];
+    for (int i = 0; i < size; ++i)
+        newData[i] = data[i];
+    newData[size] = elem;
+    delete[] data;
+    data = newData;
+    ++size;
 }
