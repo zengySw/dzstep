@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Famous People Cards</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .card {
+      width: 300px;
+      text-align: center;
+      background: white;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 10px;
+      display: none;
+    }
+
+    .card.active {
+      display: block;
+    }
+
+    img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin: 10px 0 5px;
+    }
+
+    p {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .buttons {
+      margin-top: 15px;
+    }
+
+    button {
+      padding: 6px 12px;
+      margin: 0 5px;
+      border: 1px solid #777;
+      background: #eee;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+
+    button:hover {
+      background: #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="card active">
+    <img src="https://images.euronews.com/articles/stories/09/53/97/62/1536x864_cmsv2_5635120e-c905-50b3-b79d-b316dd8732af-9539762.jpg" alt="Elon Musk">
+    <h2>Elon Musk</h2>
+    <p>"When something is important enough, you do it even if the odds are not in your favor."</p>
+  </div>
+
+  <div class="card">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/albert-einstein-sticks-out-his-tongue-when-asked-by-news-photo-1681316749.jpg?crop=1.00xw:0.956xh;0,0.0437xh&resize=980:*" alt="Albert Einstein">
+    <h2>Albert Einstein</h2>
+    <p>"Imagination is more important than knowledge."</p>
+  </div>
+
+  <div class="card">
+    <img src="https://m.media-amazon.com/images/S/pv-target-images/635a91917f0bb3c008e12256161dd64d0bdcac8e24722d94d63abc34a2672ba0._SX1080_FMjpg_.jpg" alt="Oprah Winfrey">
+    <h2>Oprah Winfrey</h2>
+    <p>"The biggest adventure you can take is to live the life of your dreams."</p>
+  </div>
+
+  <div class="card">
+    <img src="https://fivethirtyeight.com/wp-content/uploads/2020/04/GettyImages-52811398-1-e1587133785125.jpg" alt="Michael Jordan">
+    <h2>Michael Jordan</h2>
+    <p>"I've failed over and over again in my life. And that is why I succeed."</p>
+  </div>
+
+  <div class="card">
+    <img src="https://hips.hearstapps.com/hmg-prod/images/Emma-Watson_GettyImages-619546914.jpg?crop=1xw:1.0xh;center,top&resize=640:*" alt="Emma Watson">
+    <h2>Emma Watson</h2>
+    <p>"Don't feel stupid if you don't like what everyone else pretends to love."</p>
+  </div>
+
+  <div class="buttons">
+    <button onclick="prevCard()">Prev</button>
+    <button onclick="nextCard()">Next</button>
+  </div>
+
+  <script>
+    let cards = document.querySelectorAll('.card');
+    let current = 0;
+
+    function showCard(index) {
+      cards.forEach((c, i) => c.classList.toggle('active', i === index));
+    }
+
+    function nextCard() {
+      current = (current + 1) % cards.length;
+      showCard(current);
+    }
+
+    function prevCard() {
+      current = (current - 1 + cards.length) % cards.length;
+      showCard(current);
+    }
+  </script>
+</body>
+</html>
