@@ -4,64 +4,63 @@
 
 using namespace std;
 
-void bubbleSort(int a[], long size) {
+void bubble_sort(int array[], long array_size) {
 	long i, j;
-	int x;
-	for (i = 0; i < size; i++) {        
-		for (j = size - 1; j > i; j--) { 
-			if (a[j - 1] > a[j]) {
-				x = a[j - 1];
-				a[j - 1] = a[j];
-				a[j] = x;
+	int temp_val;
+	for (i = 0; i < array_size; i++) {
+		for (j = array_size - 1; j > i; j--) {
+			if (array[j - 1] > array[j]) {
+				temp_val = array[j - 1];
+				array[j - 1] = array[j];
+				array[j] = temp_val;
 			}
 		}
 	}
 }
 
 
-int Search(int A[], int Lb, int Ub, int Key)
+int search_array(int array[], int lower_bound, int upper_bound, int search_key)
 {
-	int M;
+	int middle;
 	while (1) {
-		M = (Lb + Ub) / 2;
-		if (Key < A[M])
-			Ub = M - 1;
-		else if (Key > A[M])
-			Lb = M + 1;
+		middle = (lower_bound + upper_bound) / 2;
+		if (search_key < array[middle])
+			upper_bound = middle - 1;
+		else if (search_key > array[middle])
+			lower_bound = middle + 1;
 		else
-			return M;
+			return middle;
 
-		if (Lb > Ub)
+		if (lower_bound > upper_bound)
 			return -1;
 	}
 }
 
-void Print(int arr[], int SIZE)
+void print_array(int array[], int array_size)
 {
-	for (int i = 0; i < SIZE; i++) {
+	for (int i = 0; i < array_size; i++) {
 
-		cout << arr[i] << " ";
+		cout << array[i] << " ";
 	}
 	cout << endl;
 }
 
 void main() {
 	srand(time(NULL));
-	const long SIZE = 10;
-	int arr[SIZE];
-	int key, index;
+	const long array_size = 10;
+	int array[array_size];
+	int search_key, found_index;
 
-	for (int i = 0; i < SIZE; i++) {
-		arr[i] = rand() % 20;
+	for (int i = 0; i < array_size; i++) {
+		array[i] = rand() % 20;
 	}
-	Print(arr, SIZE);
-	bubbleSort(arr, SIZE);
-	Print(arr, SIZE);
+	print_array(array, array_size);
+	bubble_sort(array, array_size);
+	print_array(array, array_size);
 	cout << "\n\n";
 	cout << "Enter any digit:";
-	cin >> key;
-	index = Search(arr, 0, SIZE, key);
-	cout << "Index: " << index << endl;
+	cin >> search_key;
+	found_index = search_array(array, 0, array_size, search_key);
+	cout << "Index: " << found_index << endl;
 	cout << "\n\n";
 }
-
