@@ -12,7 +12,7 @@ Library::Library(const Book* catalog, const int books_count)
 {
 	if (catalog == nullptr) throw "Catalog can't be = nullptr";
 	if (books_count <= 0) throw "Books count can't be <= 0";
-	AddLib(catalog, books_count);
+	add_library(catalog, books_count);
 }
 
 Library::Library(const User* users, const int users_count, const Book* catalog, const int books_count)
@@ -21,23 +21,23 @@ Library::Library(const User* users, const int users_count, const Book* catalog, 
 	if (users_count <= 0) throw "Users count can't be <= 0";
 	if (catalog == nullptr) throw "Catalog can't be = nullptr";
 	if (books_count <= 0) throw "Books count can't be <= 0";
-	AddListUs(users, users_count);
-	AddLib(catalog, books_count);
+	add_list_users(users, users_count);
+	add_library(catalog, books_count);
 }
 
-void Library::AddUser()
+void Library::add_user()
 {
-	User* temp = new User[this->users_count + 1];
-	for (size_t i = 0; i < this->users_count; i++)
-	{
-		temp[i] = this->users[i];
-	}
+	int new_size = this->users_count + 1;
+	User* temp = new User[new_size];
+	for (int i = 0; i < this->users_count; ++i) temp[i] = this->users[i];
+	cin >> temp[this->users_count];
 	delete[] this->users;
-	cin >> temp[this->users_count++];
 	this->users = temp;
+	this->users_count = new_size;
 }
 
-void Library::AddListUs(const User* users, const int users_count)
+
+void Library::add_list_users(const User* users, const int users_count)
 {
 	if (users_count <= 0) throw "Count of users can't be <= 0";
 	if (users == nullptr) throw "Users can't = nullptr";
@@ -50,7 +50,7 @@ void Library::AddListUs(const User* users, const int users_count)
 	}
 }
 
-void Library::AddBook()
+void Library::add_book()
 {
 	Book* temp = new Book[this->books_count + 1];
 	for (size_t i = 0; i < this->books_count; i++)
@@ -62,7 +62,7 @@ void Library::AddBook()
 	this->catalog = temp;
 }
 
-void Library::AddLib(const Book* lib, const int books_count)
+void Library::add_library(const Book* lib, const int books_count)
 {
 	if (books_count <= 0) throw "Count of books can't be <= 0";
 	if (lib == nullptr) throw "Lib can't = nullptr";
@@ -75,87 +75,102 @@ void Library::AddLib(const Book* lib, const int books_count)
 	}
 }
 
-void Library::RemoveUser(const int id)
+void Library::remove_user(const int id)
 {
-	User* temp = new User[this->users_count--];
+	if (users_count == 0) return;
+	int new_size = this->users_count - 1;
+	User* temp = new User[new_size];
 	int j = 0;
-	for (size_t i = 0; i < this->users_count + 1; i++)
+	for (int i = 0; i < this->users_count; ++i)
 	{
-		if (this->users[i].GetId() != id) temp[j++] = this->users[i];
+		if (this->users[i].get_id() != id)
+		{
+			if (j < new_size) temp[j++] = this->users[i];
+		}
 	}
 	delete[] this->users;
-	this->users = temp;
+	this->users = (j > 0 ? temp : nullptr);
+	this->users_count = j;
+	if (j == 0) delete[] temp;
 }
 
-void Library::RemoveBook(const int id)
+void Library::remove_book(const int id)
 {
-	Book* temp = new Book[this->books_count--];
+	if (books_count == 0) return;
+	int new_size = this->books_count - 1;
+	Book* temp = new Book[new_size];
 	int j = 0;
-	for (size_t i = 0; i < this->books_count + 1; i++)
+	for (int i = 0; i < this->books_count; ++i)
 	{
-		if (this->catalog[i].GetId() != id) temp[j++] = this->catalog[i];
+		if (this->catalog[i].get_id() != id)
+		{
+			if (j < new_size) temp[j++] = this->catalog[i];
+		}
 	}
 	delete[] this->catalog;
-	this->catalog = temp;
+	this->catalog = (j > 0 ? temp : nullptr);
+	this->books_count = j;
+	if (j == 0) delete[] temp;
 }
 
-Book& Library::FindBookViaName(string name)
+
+Book& Library::find_book_via_name(string name)
 {
 	if (name.empty()) throw "Name can't be empty";
 	for (size_t i = 0; i < this->books_count; i++)
 	{
-		if (this->catalog[i].GetName() == name) return this->catalog[i];
+		if (this->catalog[i].get_name() == name) return this->catalog[i];
 	}
 	throw "book " + name + " does not exist";
 }
 
-Book* Library::FiindBookViaGenre(string genre)
+Book* Library::find_book_via_genre(string genre)
 {
 	if (genre.empty()) throw "Genre can't be empty";
 	int res_count = 0;
 	for (size_t i = 0; i < this->books_count; i++)
 	{
-		if (this->catalog[i].GetGenre() == genre) res_count++;
+		if (this->catalog[i].get_genre() == genre) res_count++;
 	}
 	if (res_count == 0) throw "Some books in " + genre + " does not exist";
 	Book* res = new Book[res_count];
 	int j = 0;
 	for (size_t i = 0; i < this->books_count; i++)
 	{
-		if (this->catalog[i].GetGenre() == genre) res[j++] = this->catalog[i];
+		if (this->catalog[i].get_genre() == genre) res[j++] = this->catalog[i];
 	}
 
 	return res;
 }
 
-Book* Library::FindBookViaAuthtor(string authtor)
+Book* Library::find_book_via_author(string author)
 {
-	if (authtor.empty()) throw "Authtor can't be empty";
+	if (author.empty()) throw "Author can't be empty";
 	int res_count = 0;
 	for (size_t i = 0; i < this->books_count; i++)
 	{
-		if (this->catalog[i].GetAuthtor() == authtor) res_count++;
+		if (this->catalog[i].get_author() == author) res_count++;
 	}
-	if (res_count == 0) throw "Some books of " + authtor + " does not exist";
+	if (res_count == 0) throw "Some books of " + author + " does not exist";
 	Book* res = new Book[res_count];
 	int j = 0;
 	for (size_t i = 0; i < this->books_count; i++)
 	{
-		if (this->catalog[i].GetAuthtor() == authtor) res[j++] = this->catalog[i];
+		if (this->catalog[i].get_author() == author) res[j++] = this->catalog[i];
 	}
 
 	return res;
 }
 
-User& Library::MostFrequenceUs()
+User& Library::most_frequent_user()
 {
-	int max = 0;
+	int max_freq = 0;
 	int id = -1;
 	for (int i = 0; i < this->users_count; i++)
 	{
-		if (this->users[i].GetFreq() > max)
+		if (this->users[i].get_frequency() > max_freq)
 		{
-			max = this->users[i].GetFreq();
+			max_freq = this->users[i].get_frequency();
 			id = i;
 		}
 	}
@@ -163,7 +178,7 @@ User& Library::MostFrequenceUs()
 	return this->users[id];
 }
 
-void Library::ShowAllLibrary()
+void Library::show_all_library()
 {
 	for (size_t i = 0; i < this->books_count; i++)
 	{
@@ -171,15 +186,15 @@ void Library::ShowAllLibrary()
 	}
 }
 
-void Library::ShowAvalibleLibrary()
+void Library::show_available_library()
 {
 	for (size_t i = 0; i < this->books_count; i++)
 	{
-		if (catalog[i].IsAvalible()) cout << i << ": " << catalog[i] << endl;
+		if (catalog[i].get_is_available()) cout << i << ": " << catalog[i] << endl;
 	}
 }
 
-void Library::ShowAllUsers()
+void Library::show_all_users()
 {
 	for (size_t i = 0; i < this->users_count; i++)
 	{
@@ -187,53 +202,53 @@ void Library::ShowAllUsers()
 	}
 }
 
-void Library::ShowUserViaId(const int id)
+void Library::show_user_via_id(const int id)
 {
 	if (id < 0) throw "id can't be < 0";
 	cout << this->users[id] << endl;
-	if (this->users[id].GetLibSize() > 0) cout << "Owned: " << endl;
-	for (size_t i = 0; i < this->users[id].GetLibSize(); i++)
+	if (this->users[id].get_library_size() > 0) cout << "Owned: " << endl;
+	for (size_t i = 0; i < this->users[id].get_library_size(); i++)
 	{
-		ShowBookViaId(this->users[id].GetLibIds()[i]);
+		cout << this->users[id].get_library()[i] << endl;
 	}
 }
 
-void Library::ShowBookViaId(const int id)
+void Library::show_book_via_id(const int id)
 {
 	if (id < 0) throw "id can't be < 0";
 	cout << this->catalog[id] << endl;
-	if (!this->catalog[id].IsAvalible()) cout << "Owner: " << endl;
-	ShowUserViaId(this->catalog[id].GetOwerId());
+	if (!this->catalog[id].get_is_available()) cout << "Owner: " << endl;
+	cout << this->catalog[id].get_owner() << endl;
 }
 
-void Library::ShowAllBooksViaGenre(const string genre)
+void Library::show_all_books_via_genre(const string genre)
 {
 	if (genre.empty()) throw "Genre can't be empty";
 	for (size_t i = 0; i < this->books_count; i++)
 	{
-		if (this->catalog[i].GetGenre() == genre) cout << catalog[i] << endl;
+		if (this->catalog[i].get_genre() == genre) cout << catalog[i] << endl;
 	}
 }
 
-void Library::ShowAllBooksViaAuthtor(const string authtor)
+void Library::show_all_books_via_author(const string author)
 {
-	if (authtor.empty()) throw "Authtor can't be empty";
+	if (author.empty()) throw "Author can't be empty";
 	for (size_t i = 0; i < this->books_count; i++)
 	{
-		if (this->catalog[i].GetAuthtor() == authtor) cout << this->catalog[i] << endl;
+		if (this->catalog[i].get_author() == author) cout << this->catalog[i] << endl;
 	}
 }
 
-void Library::LendBook(const int u_id, const int b_id)
+void Library::lend_book(const int u_id, const int b_id)
 {
-	this->users[u_id].AddBook(b_id);
-	this->catalog[b_id].SetOwner(u_id);
+	this->users[u_id].add_book(this->catalog[b_id]);
+	this->catalog[b_id].set_owner(&this->users[u_id]);
 }
 
-void Library::ReturnBook(const int u_id, const int b_id)
+void Library::return_book(const int u_id, const int b_id)
 {
-	this->users[u_id].RemoveBook(b_id);
-	this->catalog[b_id].RemoveOwner();
+	this->users[u_id].remove_book(b_id);
+	this->catalog[b_id].remove_owner();
 }
 
 Library::~Library()

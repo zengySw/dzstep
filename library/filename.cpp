@@ -1,221 +1,206 @@
 ﻿#include <iostream>
-#include <exception>
-#include <string>
 #include "Library.h"
 using namespace std;
 
-int main()
-{
-    try {
-        Book books[30] = {
-            Book("Clean Code", "Robert C. Martin", "Programming"),
-            Book("Design Patterns", "Gamma, Helm, Johnson, Vlissides", "Software Engineering"),
-            Book("The Mythical Man-Month", "Frederick Brooks", "Software Project Management"),
-            Book("Grokking Algorithms", "Aditya Bhargava", "Computer Science"),
-            
-            Book("The Lean Startup", "Eric Ries", "Business"),
-            Book("Thinking, Fast and Slow", "Daniel Kahneman", "Psychology/Economics"),
-            Book("Principles", "Ray Dalio", "Finance"),
-            
-            Book("Sapiens: A Brief History of Humankind", "Yuval Noah Harari", "History"),
-            Book("Cosmos", "Carl Sagan", "Astronomy"),
-            Book("A Brief History of Time", "Stephen Hawking", "Physics"),
-            
-            Book("Gone Girl", "Gillian Flynn", "Thriller"),
-            Book("The Silent Patient", "Alex Michaelides", "Thriller"),
-            Book("Where the Crawdads Sing", "Delia Owens", "Literary Fiction"),
-            Book("The Love Hypothesis", "Ali Hazelwood", "Romance"),
-            Book("Milk and Honey", "Rupi Kaur", "Poetry"),
+// idk ww it call err
 
-            Book("Deep Learning with Python", "Francois Chollet", "Machine Learning"),
-            Book("The Joy of Cooking", "Irma S. Rombauer", "Cookbook"),
-            Book("Zero to One", "Peter Thiel", "Venture Capital"),
-            Book("The Art of War", "Sun Tzu", "Strategy"),
-            Book("Drive", "Daniel Pink", "Self-Help"),
-            Book("Atomic Habits", "James Clear", "Self-Help"),
-            Book("Algorithms Unlocked", "Thomas H. Cormen", "Computer Science"),
-            Book("The Secret History", "Donna Tartt", "Mystery"),
-            Book("Educated", "Tara Westover", "Memoir"),
-            Book("Permanent Record", "Edward Snowden", "Memoir"),
-            Book("The Power of Habit", "Charles Duhigg", "Psychology"),
-            Book("The Martian", "Andy Weir", "Sci-Fi"),
-            Book("Exhalation", "Ted Chiang", "Short Stories"),
-            Book("The Handmaid's Tale", "Margaret Atwood", "Dystopia"),
-            Book("Circe", "Madeline Miller", "Mythology")
-        };
+int main() {
+    Book books[30] = {
+        Book("Dune", "Frank Herbert", "Sci-Fi"),
+        Book("1984", "George Orwell", "Dystopia"),
+        Book("The Hobbit", "J.R.R. Tolkien", "Fantasy"),
+        Book("Fahrenheit 451", "Ray Bradbury", "Dystopia"),
+        Book("Brave New World", "Aldous Huxley", "Dystopia"),
+        Book("The Catcher in the Rye", "J.D. Salinger", "Drama"),
+        Book("To Kill a Mockingbird", "Harper Lee", "Classic"),
+        Book("The Great Gatsby", "F. Scott Fitzgerald", "Classic"),
+        Book("Moby Dick", "Herman Melville", "Adventure"),
+        Book("The Lord of the Rings", "J.R.R. Tolkien", "Fantasy"),
+        Book("Crime and Punishment", "Fyodor Dostoevsky", "Philosophical"),
+        Book("The Brothers Karamazov", "Fyodor Dostoevsky", "Drama"),
+        Book("War and Peace", "Leo Tolstoy", "Historical"),
+        Book("Anna Karenina", "Leo Tolstoy", "Drama"),
+        Book("The Picture of Dorian Gray", "Oscar Wilde", "Philosophical"),
+        Book("Dracula", "Bram Stoker", "Horror"),
+        Book("Frankenstein", "Mary Shelley", "Horror"),
+        Book("The Shining", "Stephen King", "Horror"),
+        Book("It", "Stephen King", "Horror"),
+        Book("Pet Sematary", "Stephen King", "Horror"),
+        Book("Harry Potter", "J.K. Rowling", "Fantasy"),
+        Book("The Silmarillion", "J.R.R. Tolkien", "Fantasy"),
+        Book("A Game of Thrones", "George R.R. Martin", "Fantasy"),
+        Book("The Name of the Wind", "Patrick Rothfuss", "Fantasy"),
+        Book("Mistborn", "Brandon Sanderson", "Fantasy"),
+        Book("The Way of Kings", "Brandon Sanderson", "Fantasy"),
+        Book("The Martian", "Andy Weir", "Sci-Fi"),
+        Book("Ready Player One", "Ernest Cline", "Sci-Fi"),
+        Book("Ender's Game", "Orson Scott Card", "Sci-Fi"),
+        Book("Neuromancer", "William Gibson", "Cyberpunk")
+    };
 
-        int programmer_books[] = { books[0].GetId(), books[1].GetId(), books[3].GetId() }; 
-        int manager_books[] = { books[2].GetId(), books[4].GetId() }; 
-        int scientist_books[] = { books[8].GetId(), books[9].GetId(), books[15].GetId() }; 
-        int thriller_fan_books[] = { books[10].GetId(), books[11].GetId() }; 
-        int business_pro_books[] = { books[6].GetId(), books[17].GetId(), books[18].GetId() }; 
-        int selfhelp_reader_books[] = { books[19].GetId(), books[20].GetId(), books[25].GetId() }; 
-        int history_buff_books[] = { books[7].GetId() };
-        int lit_fan_books[] = { books[12].GetId(), books[22].GetId() }; 
-        int memoir_lover_books[] = { books[23].GetId(), books[24].GetId() };
-        int cook_books[] = { books[16].GetId() }; 
+    Book alice_books[] = { books[0], books[1], books[2] };
+    Book bob_books[] = { books[3], books[4] };
+    Book charlie_books[] = { books[5], books[6], books[7] };
+    Book dave_books[] = { books[8] };
+    Book eve_books[] = { books[9], books[10], books[11], books[12] };
+    Book frank_books[] = { books[13], books[14] };
+    Book grace_books[] = { books[15], books[16], books[17] };
+    Book heidi_books[] = { books[18] };
+    Book ivan_books[] = { books[19], books[20], books[21] };
+    Book judy_books[] = { books[22], books[23] };
 
-        User users[10] = {
-            User("Elena (Programmer)", programmer_books, 3, 6),
-            User("Max (Manager)", manager_books, 2, 4),
-            User("Sophia (Scientist)", scientist_books, 3, 5), 
-            User("David (Thriller)", thriller_fan_books, 2, 3),
-            User("Zoe (Business)", business_pro_books, 3, 6), 
-            User("Alex (Self-Help)", selfhelp_reader_books, 3, 5),
-            User("Victoria (History)", history_buff_books, 1, 2),
-            User("George (Literary)", lit_fan_books, 2, 4),
-            User("Liam (Memoir)", memoir_lover_books, 2, 3),
-            User("Mia (Cook)", cook_books, 1, 2)
-        };
+    User users[10] = {
+        User("Alice", alice_books, 3, 5),
+        User("Bob", bob_books, 2, 3),
+        User("Charlie", charlie_books, 3, 4),
+        User("Dave", dave_books, 1, 2),
+        User("Eve", eve_books, 4, 5),
+        User("Frank", frank_books, 2, 3),
+        User("Grace", grace_books, 3, 4),
+        User("Heidi", heidi_books, 1, 2),
+        User("Ivan", ivan_books, 3, 5),
+        User("Judy", judy_books, 5, 4)
+    };
 
-        Library lib(users, 10, books, 30);
+    Library lib(users, 10, books, 30);
 
-        int menu = 0;
 
-        do {
-            cout << "\n========= LIBRARY MENU =========\n";
-            cout << "1. Search by title;\n";
-            cout << "2. Search by genre;\n";
-            cout << "3. Search by author;\n";
-            cout << "4. Most frequent visitor;\n";
-            cout << "5. Records menu;\n";
-            cout << "6. Lend/Return;\n";
-            cout << "7. Show user;\n";
-            cout << "0. Exit.\n";
+    int menu = 0;
+    do {
+        cout << "\n========= LIBRARY MENU =========\n";
+        cout << "1. Search by title;\n";
+        cout << "2. Search by genre;\n";
+        cout << "3. Search by author;\n";
+        cout << "4. Find the most frequent library visitor;\n";
+        cout << "5. Display/add records (books, visitors);\n";
+        cout << "6. Organize book lending/return;\n";
+        cout << "0. Exit.\n";
+        cout << "Choose: ";
+        cin >> menu;
+
+        string title, genre, author;
+        int u_id, b_id;
+        switch (menu) {
+        case 1:
+            cout << "Enter book title: ";
+            cin.ignore();
+            cin >> title;
+            try {
+                Book n = lib.find_book_via_name(title);
+                cout << n << endl;
+                cout << n.get_owner() << endl;
+            }
+            catch (const char* e) {
+                cout << e << endl;
+            }
+            break;
+
+        case 2:
+            cout << "Enter genre: ";
+            cin.ignore();
+            cin >> genre;
+            try {
+                lib.show_all_books_via_genre(genre);
+            }
+            catch (const char* e) {
+                cout << e << endl;
+            }
+            break;
+
+        case 3:
+            cout << "Enter author: ";
+            cin.ignore();
+            cin >> author;
+            try {
+                lib.show_all_books_via_author(author);
+            }
+            catch (const char* e) {
+                cout << e << endl;
+            }
+            break;
+
+        case 4:
+            try {
+                cout << "Most frequent visitor:\n" << lib.most_frequent_user() << endl;
+            }
+            catch (const char* e) {
+                cout << e << endl;
+            }
+            break;
+
+        case 5: {
+            int sub = 0;
+            cout << "\n--- Records Menu ---\n";
+            cout << "1. Show all books;\n";
+            cout << "2. Show all users;\n";
+            cout << "3. Add a new book;\n";
+            cout << "4. Add a new user;\n";
+            cout << "0. Back;\n";
             cout << "Choose: ";
-
-            cin >> menu;
-
-            if (!cin) throw "Invalid menu input";
-
-            string s;
-            int uid, bid;
-
-            switch (menu) {
-
+            cin >> sub;
+            switch (sub) {
             case 1:
-                cout << "Enter title: ";
-                cin >> s;
-                try {
-                    Book b = lib.FindBookViaName(s);
-                    cout << b << endl;
-                    lib.ShowUserViaId(b.GetOwerId());
-                }
-                catch (const std::exception& e) { cout << e.what() << endl; }
-                catch (const string& e) { cout << e << endl; }
-                catch (const char* e) { cout << e << endl; }
-                catch (...) { cout << "Unknown error.\n"; }
+                lib.show_all_library();
                 break;
-
             case 2:
-                cout << "Enter genre: ";
-                cin >> s;
-                try {
-                    lib.ShowAllBooksViaGenre(s);
-                }
-                catch (const std::exception& e) { cout << e.what() << endl; }
-                catch (const string& e) { cout << e << endl; }
-                catch (const char* e) { cout << e << endl; }
-                catch (...) { cout << "Unknown error.\n"; }
+                lib.show_all_users();
                 break;
-
             case 3:
-                cout << "Enter author: ";
-                cin >> s;
-                try {
-                    lib.ShowAllBooksViaAuthtor(s);
-                }
-                catch (const std::exception& e) { cout << e.what() << endl; }
-                catch (const string& e) { cout << e << endl; }
-                catch (const char* e) { cout << e << endl; }
-                catch (...) { cout << "Unknown error.\n"; }
+                lib.add_book();
                 break;
-
             case 4:
-                try {
-                    cout << "Most frequent:\n" << lib.MostFrequenceUs() << endl;
-                }
-                catch (const std::exception& e) { cout << e.what() << endl; }
-                catch (const string& e) { cout << e << endl; }
-                catch (const char* e) { cout << e << endl; }
-                catch (...) { cout << "Unknown error.\n"; }
+                lib.add_user();
                 break;
-
-            case 5: {
-                int sub;
-                cout << "1. Show books\n2. Show users\n3. Add book\n4. Add user\n0. Back\nChoose: ";
-                cin >> sub;
-
-                try {
-                    switch (sub) {
-                    case 1: lib.ShowAllLibrary(); break;
-                    case 2: lib.ShowAllUsers(); break;
-                    case 3: lib.AddBook(); break;
-                    case 4: lib.AddUser(); break;
-                    default: break;
-                    }
-                }
-                catch (const std::exception& e) { cout << e.what() << endl; }
-                catch (const string& e) { cout << e << endl; }
-                catch (const char* e) { cout << e << endl; }
-                catch (...) { cout << "Unknown error.\n"; }
-                break;
-            }
-
-            case 6: {
-                int sub;
-                cout << "1. Lend\n2. Return\nChoose: ";
-                cin >> sub;
-
-                cout << "User id: ";
-                cin >> uid;
-                cout << "Book id: ";
-                cin >> bid;
-
-                try {
-                    if (sub == 1) lib.LendBook(uid, bid);
-                    else if (sub == 2) lib.ReturnBook(uid, bid);
-                    else throw "Wrong option";
-                }
-                catch (const std::exception& e) { cout << e.what() << endl; }
-                catch (const string& e) { cout << e << endl; }
-                catch (const char* e) { cout << e << endl; }
-                catch (...) { cout << "Unknown error.\n"; }
-                break;
-            }
-
-            case 7:
-                cout << "User id: ";
-                cin >> uid;
-                try {
-                    lib.ShowUserViaId(uid);
-                }
-                catch (const std::exception& e) { cout << e.what() << endl; }
-                catch (const string& e) { cout << e << endl; }
-                catch (const char* e) { cout << e << endl; }
-                catch (...) { cout << "Unknown error.\n"; }
-                break;
-
             default:
-                cout << "Exit.\n";
-                menu = 0;
                 break;
             }
+            break;
+        }
 
-        } while (menu > 0);
-    }
-    catch (const std::exception& e) {
-        cout << "Fatal error: " << e.what() << endl;
-    }
-    catch (const string& e) {
-        cout << "Fatal error: " << e << endl;
-    }
-    catch (const char* e) {
-        cout << "Fatal error: " << e << endl;
-    }
-    catch (...) {
-        cout << "Fatal error: unknown.\n";
-    }
+        case 6: {
+            int sub = 0;
+            cout << "\n--- Lending/Return Menu ---\n";
+            cout << "1. Lend book;\n";
+            cout << "2. Return book;\n";
+            cout << "0. Back;\n";
+            cout << "Choose: ";
+            cin >> sub;
+
+            cout << "Enter user id: ";
+            cin >> u_id;
+            cout << "Enter book id: ";
+            cin >> b_id;
+
+            try {
+                if (sub == 1)
+                    lib.lend_book(u_id, b_id);
+                else if (sub == 2)
+                    lib.return_book(u_id, b_id);
+            }
+            catch (const char* e) {
+                cout << e << endl;
+            }
+            break;
+        }
+        case 7:
+            cout << "User id: ";
+            cin >> u_id;
+            try
+            {
+                lib.show_user_via_id(u_id);
+            }
+            catch (const char* e)
+            {
+                cout << e << endl;
+            }
+            break;
+        default:
+            menu = 0;
+            cout << "Exit.\n";
+            break;
+        }
+
+    } while (menu > 0);
 
     return 0;
 }
