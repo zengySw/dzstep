@@ -2,48 +2,32 @@
 #include <iostream>
 using namespace std;
 
+class User;
+
 class Book
 {
 private:
 	int id;
 	string name;
-	string authtor;
+	string author;
 	string genre;
-	bool is_avalible;
-	int owner_id;
+	bool is_available;
+	User* owner;
 	static int count;
 	friend ostream& operator<< (ostream& os, const Book& obj);
 	friend istream& operator>> (istream& is, Book& obj);
 public:
 	Book();
-	Book(string name, string authtor, string genre);
-	void SetOwner(int id);
-	int GetOwerId() { return this->owner_id; };
-	void RemoveOwner();
-	void SetAvalible(bool is_avalible);
-	int GetId() { return this->id; };
-	bool IsAvalible() { return this->is_avalible; };
-	string GetAuthtor() { return this->authtor; };
-	string GetName() { return this->name; };
-	string GetGenre() { return this->genre; };
+	Book(string name, string author, string genre);
+	void set_owner(User* smb);
+	User* get_owner() { return this->owner; };
+	void remove_owner();
+	void set_available(bool is_available);
+	int get_id() { return this->id; };
+	bool get_is_available() { return this->is_available; }; 
+	string get_author() { return this->author; };
+	string get_name() { return this->name; };
+	string get_genre() { return this->genre; };
 
 	Book& operator= (const Book& obj);
 };
-
-inline ostream& operator<< (ostream& os, const Book& obj)
-{
-	os << obj.authtor << ": " << obj.name << " ( " << obj.genre << " ) " << obj.is_avalible ? "avalible" : "no avalible";
-	return os;
-}
-
-inline istream& operator>> (istream& is, Book& obj)
-{
-	cout << "Name: ";
-	is >> obj.name;
-	cout << "Authtor: ";
-	is >> obj.authtor;
-	cout << "Genre: ";
-	is >> obj.genre;
-	obj.is_avalible = true;
-	return is;
-}
