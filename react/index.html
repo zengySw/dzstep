@@ -8,188 +8,27 @@
     <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles.css">
 
-    <style>
-        * {
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body {
-            margin: 0;
-            background: #f5f5f5;
-        }
-
-        .header {
-            background: #00a046;
-            height: 56px;
-            display: flex;
-            align-items: center;
-            padding: 0 20px;
-            gap: 16px;
-            color: #fff;
-        }
-
-        .logo {
-            font-size: 24px;
-            font-weight: 800;
-            letter-spacing: .5px;
-        }
-
-        .catalog {
-            background: #008c3d;
-            border: none;
-            color: #fff;
-            padding: 8px 12px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 14px;
-        }
-
-        .search {
-            flex: 1;
-            display: flex;
-        }
-
-        .search input {
-            flex: 1;
-            height: 36px;
-            border: none;
-            padding: 0 12px;
-            border-radius: 4px 0 0 4px;
-            font-size: 14px;
-        }
-
-        .search button {
-            width: 48px;
-            border: none;
-            background: #ffd500;
-            border-radius: 0 4px 4px 0;
-            cursor: pointer;
-        }
-
-        .icons {
-            display: flex;
-            gap: 18px;
-            font-size: 18px;
-        }
-
-        .wrapper {
-            max-width: 1400px;
-            margin: 16px auto;
-            padding: 0 16px;
-            display: flex;
-            gap: 16px;
-        }
-
-        .sidebar {
-            width: 260px;
-            background: #fff;
-            border-radius: 4px;
-            padding: 8px 0;
-        }
-
-        .cat {
-            padding: 10px 16px;
-            font-size: 14px;
-            cursor: pointer;
-        }
-
-        .cat:hover {
-            background: #f1f1f1;
-            color: #00a046;
-        }
-
-        .products {
-            flex: 1;
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-            gap: 16px;
-        }
-
-        .card {
-            background: #fff;
-            border-radius: 4px;
-            padding: 12px;
-            display: flex;
-            flex-direction: column;
-            transition: box-shadow .2s;
-        }
-
-        .card:hover {
-            box-shadow: 0 6px 16px rgba(0, 0, 0, .15);
-        }
-
-        .card img {
-            height: 180px;
-            object-fit: contain;
-            margin-bottom: 10px;
-        }
-
-        .title {
-            font-size: 14px;
-            line-height: 1.35;
-            margin-bottom: 8px;
-            flex: 1;
-        }
-
-        .price {
-            font-size: 18px;
-            font-weight: 700;
-            color: #e60000;
-            margin-bottom: 10px;
-        }
-
-        .actions {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .buy {
-            background: #00a046;
-            border: none;
-            color: #fff;
-            padding: 8px 14px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 14px;
-        }
-
-        .fav {
-            color: #aaa;
-            cursor: pointer;
-        }
-
-        .fav:hover {
-            color: #e60000;
-        }
-    </style>
 </head>
 
 <body>
     <div id="root"></div>
 
     <script type="text/babel">
-        const products = Array.from({ length: 8 }).map((_, i) => ({
-            id: i,
-            title: "Смартфон Samsung Galaxy A" + (20 + i),
-            price: (8999 + i * 1200).toLocaleString() + " ₴",
-            img: "https://via.placeholder.com/300x200?text=Product"
-        }));
 
-        function Header() {
+
+        function Header({ logo, placeholder }) {
             return (
                 <div className="header">
-                    <div className="logo">ROZETKA</div>
+                    <div className="logo">{logo}</div>
                     <button className="catalog">
                         <i className="fa fa-bars"></i> Каталог
                     </button>
 
                     <div className="search">
-                        <input placeholder="Я шукаю..." />
+                        <input placeholder={placeholder} />
                         <button><i className="fa fa-search"></i></button>
                     </div>
 
@@ -202,44 +41,88 @@
             );
         }
 
-        function Sidebar() {
+        function Sidebar({ categories }) {
             return (
                 <div className="sidebar">
-                    {["Смартфони", "Ноутбуки", "Телевізори", "Побутова техніка", "Геймінг", "Аксесуари"]
-                        .map(c => <div key={c} className="cat">{c}</div>)}
+                    {categories.map(c => (
+                        <div key={c} className="cat">{c}</div>
+                    ))}
                 </div>
             );
         }
 
-        function Card({ p }) {
+        function ProductCard({ title, price, img }) {
             return (
                 <div className="card">
-                    <img src={p.img} />
-                    <div className="title">{p.title}</div>
-                    <div className="price">{p.price}</div>
+                    <img src={img} />
+                    <div className="title">{title}</div>
+                    <div className="price">{price}</div>
                     <div className="actions">
                         <button className="buy">Купити</button>
-                        <i className="fa fa-heart fav"></i>
+                        <i className="fa fa-heart"></i>
                     </div>
                 </div>
             );
         }
 
-        function App() {
+        function ProductList({ items }) {
+            return (
+                <div className="products">
+                    {items.map(p => (
+                        <ProductCard
+                            key={p.id}
+                            title={p.title}
+                            price={p.price}
+                            img={p.img}
+                        />
+                    ))}
+                </div>
+            );
+        }
+
+
+        function App({ shopName, categories, products }) {
             return (
                 <>
-                    <Header />
+                    <Header
+                        logo={shopName}
+                        placeholder="Я шукаю..."
+                    />
+
                     <div className="wrapper">
-                        <Sidebar />
-                        <div className="products">
-                            {products.map(p => <Card key={p.id} p={p} />)}
-                        </div>
+                        <Sidebar categories={categories} />
+                        <ProductList items={products} />
                     </div>
                 </>
             );
         }
 
-        ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+
+        const categories = [
+            "Смартфони",
+            "Ноутбуки",
+            "Телевізори",
+            "Побутова техніка",
+            "Геймінг",
+            "Аксесуари"
+        ];
+
+        const products = Array.from({ length: 8 }).map((_, i) => ({
+            id: i,
+            title: "Смартфон Samsung Galaxy A" + (20 + i),
+            price: (8999 + i * 1200).toLocaleString() + " ₴",
+            img: "https://via.placeholder.com/300x200?text=Product"
+        }));
+
+        ReactDOM.createRoot(document.getElementById("root"))
+            .render(
+                <App
+                    shopName="ROZETKA"
+                    categories={categories}
+                    products={products}
+                />
+            );
+
     </script>
 </body>
 
