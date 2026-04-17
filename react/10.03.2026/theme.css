@@ -1,0 +1,25 @@
+:root {
+  /* Светлая тема (по умолчанию) */
+  --bg-color: #f5f7fb;
+  --text-color: #222;
+  --card-bg: #ffffff;
+  --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  --muted-text: #666;
+  --border-color: #eee;
+}
+
+[data-theme='dark'] {
+  /* Темная тема */
+  --bg-color: #1a1a1b;
+  --text-color: #f5f5f5;
+  --card-bg: #2d2d2e;
+  --card-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+  --muted-text: #aaa;
+  --border-color: #444;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: all 0.3s ease;
+}
