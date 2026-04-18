@@ -1,0 +1,102 @@
+.form-page {
+  min-height: 100vh;
+  padding: 24px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #e5e5e5;
+}
+
+.registration-form {
+  width: 100%;
+  max-width: 760px;
+  background: #f2f2f2;
+  padding: 18px 16px 24px;
+  border: 1px solid #d7d7d7;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: minmax(230px, 1fr) minmax(240px, 340px);
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+
+.form-row label,
+.row-label {
+  text-align: right;
+  color: #111;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea,
+.registration-form button {
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 15px;
+  border: 1px solid #b54f4f;
+  background: #fff;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea {
+  width: 100%;
+  padding: 3px 6px;
+}
+
+.registration-form textarea {
+  min-height: 190px;
+  resize: vertical;
+}
+
+.inline-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.option-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border: 1px solid #b54f4f;
+  background: #fff;
+  white-space: nowrap;
+}
+
+.option-chip input {
+  width: auto;
+  margin: 0;
+}
+
+.form-row-about {
+  align-items: start;
+}
+
+.submit-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.submit-row button {
+  padding: 2px 10px;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .form-row label,
+  .row-label {
+    text-align: left;
+  }
+}
