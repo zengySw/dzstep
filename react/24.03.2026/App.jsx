@@ -197,7 +197,7 @@ const App = () => {
                 onChange={handleChange}
               />
               English
-            </label>
+            </label>  
             <label className="option-chip" htmlFor="languageNonEnglish">
               <input
                 id="languageNonEnglish"
