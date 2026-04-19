@@ -204,7 +204,7 @@ const App = () => {
                 type="checkbox"
                 name="languageNonEnglish"
                 checked={formData.languageNonEnglish}
-                onChange={handleChange}
+                onChange={h3andleChange}
               />
               Non English
             </label>
