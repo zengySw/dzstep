@@ -1,0 +1,2960 @@
+{
+    "data": [
+        {
+            "id": 366021717,
+            "href": "https://rozetka.com.ua/ua/366021717/p366021717/",
+            "title": "УМБ, O2 Project, Повербанк, Портативна батарея для ноутбука, планшета, 60000 mAh, швидка зарядка PD+QC 65W, Black",
+            "brand": "O2 Project",
+            "brand_id": 660282,
+            "price": 4289,
+            "old_price": 5900,
+            "price_pcs": 100.44,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content.rozetka.com.ua/goods/images/original/333604331.jpg",
+                "hover": "https://content2.rozetka.com.ua/goods/images/original/333604333.jpg",
+                "all": [
+                    "https://content.rozetka.com.ua/goods/images/original/333604331.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/333604333.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/333604341.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/333604348.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/333604356.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/333604363.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/333604369.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/333604375.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/333604379.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/333604386.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/333604392.jpg"
+                ]
+            },
+            "group": {
+                "id": 56039993,
+                "name": "poverbank-project-60000mah-c-mosnostu-65w",
+                "title": "УМБ O2 Project YT-2030-65W з кольоровою ручкою"
+            },
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 27,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/",
+                    "values": [
+                        {
+                            "value_id": 2723221,
+                            "value_name": "s-displeem",
+                            "value_title": "З дисплеєм",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                        },
+                        {
+                            "value_id": 2723214,
+                            "value_name": "s-indikatorom-urovnya-zaryada",
+                            "value_title": "З індикатором рівня заряду",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                        }
+                    ]
+                }
+            ],
+            "merchant_id": 43,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "unavailable",
+            "seller_id": 113917,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 31,
+            "comments_mark": 3.5,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 113917,
+                "title": "Secure Keys",
+                "docket": "<br><br>Графік роботи<br>Пн-Пт 09:00-18:00<br>Сб 11:00-17:00<br>Нд Вихідний\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 27,
+                "logo": "https://content.rozetka.com.ua/sellers/logo/original/450341329.jpg"
+            },
+            "label": null,
+            "tags": [],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": false,
+                "promo_price": false,
+                "status": true,
+                "bonus": false,
+                "gift": false,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": false,
+                "tags": false,
+                "pictograms": true,
+                "description": true,
+                "variables": false,
+                "hide_rating_review": false
+            },
+            "isCanonical": true
+        },
+        {
+            "id": 380675844,
+            "href": "https://rozetka.com.ua/ua/380675844/p380675844/",
+            "title": "Power bank Hoco J101B PD20W+QC3.0 (22.5W) 30000 mAh портативная батарея повербанк 2xUSB Black",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 3240,
+            "old_price": 3637,
+            "price_pcs": 74.14,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content1.rozetka.com.ua/goods/images/original/338334241.png",
+                "hover": "https://content.rozetka.com.ua/goods/images/original/338334246.png",
+                "all": [
+                    "https://content1.rozetka.com.ua/goods/images/original/338334241.png",
+                    "https://content.rozetka.com.ua/goods/images/original/338334246.png",
+                    "https://content1.rozetka.com.ua/goods/images/original/338334249.png",
+                    "https://content2.rozetka.com.ua/goods/images/original/338334252.png"
+                ]
+            },
+            "group": {
+                "id": 56038856,
+                "name": "umb-hoco-j101-astute",
+                "title": "УМБ Hoco J101 Astute"
+            },
+            "var_params": {
+                "block": {
+                    "Ємність батареї, мА·год": [
+                        {
+                            "id": 397000842,
+                            "href": "https://rozetka.com.ua/ua/397000842/p397000842/",
+                            "value": "10000",
+                            "value_id": 65075,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 10000,
+                            "isCanonical": false
+                        },
+                        {
+                            "id": 452857493,
+                            "href": "https://rozetka.com.ua/ua/452857493/p452857493/",
+                            "value": "20000",
+                            "value_id": 72394,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 20000,
+                            "isCanonical": false
+                        },
+                        {
+                            "id": 380675844,
+                            "href": "https://rozetka.com.ua/ua/380675844/p380675844/",
+                            "value": "30000",
+                            "value_id": 207893,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 30000,
+                            "isCanonical": false
+                        }
+                    ]
+                },
+                "color": [
+                    {
+                        "id": 393834585,
+                        "href": "https://rozetka.com.ua/ua/393834585/p393834585/",
+                        "active_option": false,
+                        "value": "Білий",
+                        "value_id": 42479,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42479,
+                            "url": "",
+                            "hash": "#FFF"
+                        },
+                        "isCanonical": false
+                    },
+                    {
+                        "id": 380675844,
+                        "href": "https://rozetka.com.ua/ua/380675844/p380675844/",
+                        "active_option": true,
+                        "value": "Чорний",
+                        "value_id": 42459,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42459,
+                            "url": "",
+                            "hash": "#000"
+                        },
+                        "isCanonical": false
+                    }
+                ]
+            },
+            "category_id": 387969,
+            "discount": 11,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723214,
+                    "value_name": "s-indikatorom-urovnya-zaryada",
+                    "value_title": "З індикатором рівня заряду",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 24897,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 239,
+            "comments_mark": 4.2,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 24897,
+                "title": "re:Case",
+                "docket": "re:Case - інтернет магазин чохлів та захисних стекол для смартфонів.\r\nШирокий асортимент аксесуарів за доступними цінами для більшості моделей смартфонів.\r\nУ нас Ви можете придбати комплектом чохол та захисне скло для захисту Вашого гаджета.\r\nАктуальна наявність товарів, власний склад.\r\nУважні менеджери, професійна консультація та оперативна відправка.<br><br>Графік роботи<br>Пн-Нд 09:00-19:00\n",
+                "rank": "96",
+                "status": "confirmed",
+                "count_votes": 5109,
+                "logo": "https://content2.rozetka.com.ua/sellers/logo/original/459219158.jpg"
+            },
+            "label": {
+                "id": 1,
+                "name": "popularity",
+                "text": "ТОП ПРОДАЖІВ",
+                "color": "#ffa900",
+                "color_font": "#ffffff"
+            },
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 1899,
+                "count": 19
+            },
+            "isCanonical": false
+        },
+        {
+            "id": 405355407,
+            "href": "https://rozetka.com.ua/ua/405355407/p405355407/",
+            "title": "Повербанк Hoco J101A Astute + кабель micro-usb (20000 mAh, QC 3.0, PD 22,5 Вт, x2 USB Type-A, USB Type-C, micro USB, 3A, зі швидкою зарядкою) - Білий",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 1700,
+            "old_price": 1900,
+            "price_pcs": 39.81,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content.rozetka.com.ua/goods/images/original/382719760.jpg",
+                "hover": "https://content2.rozetka.com.ua/goods/images/original/382719770.jpg",
+                "all": [
+                    "https://content.rozetka.com.ua/goods/images/original/382719760.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/382719770.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/382719775.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/382719781.jpg"
+                ]
+            },
+            "group": {
+                "id": 56038856,
+                "name": "umb-hoco-j101-astute",
+                "title": "УМБ Hoco J101 Astute"
+            },
+            "var_params": {
+                "block": {
+                    "Ємність батареї, мА·год": [
+                        {
+                            "id": 398517192,
+                            "href": "https://rozetka.com.ua/ua/398517192/p398517192/",
+                            "value": "10000",
+                            "value_id": 65075,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 10000,
+                            "isCanonical": false
+                        },
+                        {
+                            "id": 405355407,
+                            "href": "https://rozetka.com.ua/ua/405355407/p405355407/",
+                            "value": "20000",
+                            "value_id": 72394,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 20000,
+                            "isCanonical": false
+                        },
+                        {
+                            "id": 393834585,
+                            "href": "https://rozetka.com.ua/ua/393834585/p393834585/",
+                            "value": "30000",
+                            "value_id": 207893,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 30000,
+                            "isCanonical": false
+                        }
+                    ]
+                },
+                "color": [
+                    {
+                        "id": 405355407,
+                        "href": "https://rozetka.com.ua/ua/405355407/p405355407/",
+                        "active_option": true,
+                        "value": "Білий",
+                        "value_id": 42479,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42479,
+                            "url": "",
+                            "hash": "#FFF"
+                        },
+                        "isCanonical": false
+                    },
+                    {
+                        "id": 452857493,
+                        "href": "https://rozetka.com.ua/ua/452857493/p452857493/",
+                        "active_option": false,
+                        "value": "Чорний",
+                        "value_id": 42459,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42459,
+                            "url": "",
+                            "hash": "#000"
+                        },
+                        "isCanonical": false
+                    }
+                ]
+            },
+            "category_id": 387969,
+            "discount": 11,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723214,
+                    "value_name": "s-indikatorom-urovnya-zaryada",
+                    "value_title": "З індикатором рівня заряду",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 82937,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 239,
+            "comments_mark": 4.2,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 82937,
+                "title": "Smartis",
+                "docket": "<br><br>Графік роботи<br>Пн-Пт 10:00-19:00<br>Сб 11:00-17:00<br>Нд Вихідний\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 1217,
+                "logo": "https://content.rozetka.com.ua/sellers/logo/original/447003625.jpg"
+            },
+            "label": {
+                "id": 1,
+                "name": "popularity",
+                "text": "ТОП ПРОДАЖІВ",
+                "color": "#ffa900",
+                "color_font": "#ffffff"
+            },
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 1299,
+                "count": 4
+            },
+            "isCanonical": false
+        },
+        {
+            "id": 406474260,
+            "href": "https://rozetka.com.ua/ua/406474260/p406474260/",
+            "title": "Power bank XO PR189 PD20W+QC3.0 (22.5W) 30000 mAh портативна батарея повербанк 2хUSB Black",
+            "brand": "XO",
+            "brand_id": 158731,
+            "price": 2790,
+            "old_price": 3487,
+            "price_pcs": 63.84,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content.rozetka.com.ua/goods/images/original/384714242.jpg",
+                "hover": "https://content1.rozetka.com.ua/goods/images/original/384714244.jpg",
+                "all": [
+                    "https://content.rozetka.com.ua/goods/images/original/384714242.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/384714244.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/384714247.jpg"
+                ]
+            },
+            "group": {
+                "id": 47931834,
+                "name": "power-bank-xo-pr189-fast-charge-light-display-pd20wqc225w-30000mah",
+                "title": "УМБ XO PR187/PR188/PR189"
+            },
+            "var_params": {
+                "block": {
+                    "Ємність батареї, мА·год": [
+                        {
+                            "id": 526245779,
+                            "href": "https://rozetka.com.ua/ua/526245779/p526245779/",
+                            "value": "20000",
+                            "value_id": 72394,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 20000,
+                            "isCanonical": false
+                        },
+                        {
+                            "id": 406474260,
+                            "href": "https://rozetka.com.ua/ua/406474260/p406474260/",
+                            "value": "30000",
+                            "value_id": 207893,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 30000,
+                            "isCanonical": false
+                        }
+                    ]
+                },
+                "color": [
+                    {
+                        "id": 406474260,
+                        "href": "https://rozetka.com.ua/ua/406474260/p406474260/",
+                        "active_option": true,
+                        "value": "Чорний",
+                        "value_id": 42459,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42459,
+                            "url": "",
+                            "hash": "#000"
+                        },
+                        "isCanonical": false
+                    }
+                ]
+            },
+            "category_id": 387969,
+            "discount": 20,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723214,
+                    "value_name": "s-indikatorom-urovnya-zaryada",
+                    "value_title": "З індикатором рівня заряду",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 24897,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 152,
+            "comments_mark": 4,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 24897,
+                "title": "re:Case",
+                "docket": "re:Case - інтернет магазин чохлів та захисних стекол для смартфонів.\r\nШирокий асортимент аксесуарів за доступними цінами для більшості моделей смартфонів.\r\nУ нас Ви можете придбати комплектом чохол та захисне скло для захисту Вашого гаджета.\r\nАктуальна наявність товарів, власний склад.\r\nУважні менеджери, професійна консультація та оперативна відправка.<br><br>Графік роботи<br>Пн-Нд 09:00-19:00\n",
+                "rank": "96",
+                "status": "confirmed",
+                "count_votes": 5109,
+                "logo": "https://content2.rozetka.com.ua/sellers/logo/original/459219158.jpg"
+            },
+            "label": null,
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": false,
+                "promo_price": false,
+                "status": true,
+                "bonus": false,
+                "gift": false,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": false,
+                "tags": false,
+                "pictograms": true,
+                "description": true,
+                "variables": false,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 2049,
+                "count": 5
+            },
+            "isCanonical": false
+        },
+        {
+            "id": 463113994,
+            "href": "https://rozetka.com.ua/ua/463113994/p463113994/",
+            "title": "УМБ портативний зарядний пристрій швидкого заряджання Power Bank Hoco J102A figure 20W 20000 mAh повербанк чорний QC3 та PD",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 1699,
+            "old_price": 2000,
+            "price_pcs": 38.88,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content.rozetka.com.ua/goods/images/original/492106627.jpg",
+                "hover": "https://content2.rozetka.com.ua/goods/images/original/492106632.jpg",
+                "all": [
+                    "https://content.rozetka.com.ua/goods/images/original/492106627.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/492106632.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/492106638.jpg"
+                ]
+            },
+            "group": {
+                "id": 56038907,
+                "name": "umb-hoco-j102-cool-figure",
+                "title": "УМБ Hoco J102 Cool figure"
+            },
+            "var_params": {
+                "block": {
+                    "Ємність батареї, мА·год": [
+                        {
+                            "id": 456055419,
+                            "href": "https://rozetka.com.ua/ua/456055419/p456055419/",
+                            "value": "10000",
+                            "value_id": 65075,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 10000,
+                            "isCanonical": false
+                        },
+                        {
+                            "id": 463113994,
+                            "href": "https://rozetka.com.ua/ua/463113994/p463113994/",
+                            "value": "20000",
+                            "value_id": 72394,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 20000,
+                            "isCanonical": false
+                        }
+                    ]
+                },
+                "color": [
+                    {
+                        "id": 457045379,
+                        "href": "https://rozetka.com.ua/ua/457045379/p457045379/",
+                        "active_option": false,
+                        "value": "Білий",
+                        "value_id": 42479,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42479,
+                            "url": "",
+                            "hash": "#FFF"
+                        },
+                        "isCanonical": false
+                    },
+                    {
+                        "id": 463113994,
+                        "href": "https://rozetka.com.ua/ua/463113994/p463113994/",
+                        "active_option": true,
+                        "value": "Чорний",
+                        "value_id": 42459,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42459,
+                            "url": "",
+                            "hash": "#000"
+                        },
+                        "isCanonical": false
+                    }
+                ]
+            },
+            "category_id": 387969,
+            "discount": 15,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 104065,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 48,
+            "comments_mark": 3.9,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 104065,
+                "title": "Шо Хош",
+                "docket": "<br><br>Графік роботи<br>Пн-Пт 09:00-18:00<br>Сб 11:00-17:00<br>Нд Вихідний\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 1203,
+                "logo": "https://content1.rozetka.com.ua/sellers/logo/original/387496750.jpg"
+            },
+            "label": null,
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 1589,
+                "count": 14
+            },
+            "isCanonical": false
+        },
+        {
+            "id": 463113999,
+            "href": "https://rozetka.com.ua/ua/463113999/p463113999/",
+            "title": "УМБ портативний зарядний пристрій швидкого заряджання QC3 22.5 W Power Bank Hoco J101A 20000 mAh PD 20W повербанк чорний",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 1599,
+            "old_price": 1700,
+            "price_pcs": 36.59,
+            "min_month_price": 0,
+            "dispatch": true,
+            "preorder": false,
+            "images": {
+                "main": "https://content1.rozetka.com.ua/goods/images/original/492106630.jpg",
+                "hover": "https://content.rozetka.com.ua/goods/images/original/492106636.jpg",
+                "all": [
+                    "https://content1.rozetka.com.ua/goods/images/original/492106630.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/492106636.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/492106640.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/492106647.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/492106650.jpg"
+                ]
+            },
+            "group": {
+                "id": 56038856,
+                "name": "umb-hoco-j101-astute",
+                "title": "УМБ Hoco J101 Astute"
+            },
+            "var_params": {
+                "block": {
+                    "Ємність батареї, мА·год": [
+                        {
+                            "id": 397000842,
+                            "href": "https://rozetka.com.ua/ua/397000842/p397000842/",
+                            "value": "10000",
+                            "value_id": 65075,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 10000,
+                            "isCanonical": false
+                        },
+                        {
+                            "id": 463113999,
+                            "href": "https://rozetka.com.ua/ua/463113999/p463113999/",
+                            "value": "20000",
+                            "value_id": 72394,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 20000,
+                            "isCanonical": false
+                        },
+                        {
+                            "id": 566616580,
+                            "href": "https://rozetka.com.ua/ua/566616580/p566616580/",
+                            "value": "30000",
+                            "value_id": 207893,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 1,
+                            "order": 30000,
+                            "isCanonical": true
+                        }
+                    ]
+                },
+                "color": [
+                    {
+                        "id": 366630288,
+                        "href": "https://rozetka.com.ua/ua/366630288/p366630288/",
+                        "active_option": false,
+                        "value": "Білий",
+                        "value_id": 42479,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42479,
+                            "url": "",
+                            "hash": "#FFF"
+                        },
+                        "isCanonical": false
+                    },
+                    {
+                        "id": 463113999,
+                        "href": "https://rozetka.com.ua/ua/463113999/p463113999/",
+                        "active_option": true,
+                        "value": "Чорний",
+                        "value_id": 42459,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42459,
+                            "url": "",
+                            "hash": "#000"
+                        },
+                        "isCanonical": false
+                    }
+                ]
+            },
+            "category_id": 387969,
+            "discount": 6,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723214,
+                    "value_name": "s-indikatorom-urovnya-zaryada",
+                    "value_title": "З індикатором рівня заряду",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                }
+            ],
+            "merchant_id": 43,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 104065,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 239,
+            "comments_mark": 4.2,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 104065,
+                "title": "Шо Хош",
+                "docket": "<br><br>Графік роботи<br>Пн-Пт 09:00-18:00<br>Сб 11:00-17:00<br>Нд Вихідний\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 1203,
+                "logo": "https://content1.rozetka.com.ua/sellers/logo/original/387496750.jpg"
+            },
+            "label": {
+                "id": 1,
+                "name": "popularity",
+                "text": "ТОП ПРОДАЖІВ",
+                "color": "#ffa900",
+                "color_font": "#ffffff"
+            },
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 1209,
+                "count": 11
+            },
+            "isCanonical": false
+        },
+        {
+            "id": 463477094,
+            "href": "https://rozetka.com.ua/ua/463477094/p463477094/",
+            "title": "Power bank XO PR240 PD20W+QC3.0(22.5W) 30000 mAh с быстрой зарядкой и фонариком повербанк 2xUSB Black",
+            "brand": "XO",
+            "brand_id": 158731,
+            "price": 2940,
+            "old_price": 3675,
+            "price_pcs": 67.28,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content2.rozetka.com.ua/goods/images/original/492546328.jpg",
+                "hover": "https://content.rozetka.com.ua/goods/images/original/492546330.jpg",
+                "all": [
+                    "https://content2.rozetka.com.ua/goods/images/original/492546328.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/492546330.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/492546333.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/492546336.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/492546339.jpg"
+                ]
+            },
+            "group": {
+                "id": 56646806,
+                "name": "umb-xo-pr240",
+                "title": "УМБ XO PR240"
+            },
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 20,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "unavailable",
+            "seller_id": 24897,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 96,
+            "comments_mark": 4.2,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 24897,
+                "title": "re:Case",
+                "docket": "re:Case - інтернет магазин чохлів та захисних стекол для смартфонів.\r\nШирокий асортимент аксесуарів за доступними цінами для більшості моделей смартфонів.\r\nУ нас Ви можете придбати комплектом чохол та захисне скло для захисту Вашого гаджета.\r\nАктуальна наявність товарів, власний склад.\r\nУважні менеджери, професійна консультація та оперативна відправка.<br><br>Графік роботи<br>Пн-Нд 09:00-19:00\n",
+                "rank": "96",
+                "status": "confirmed",
+                "count_votes": 5109,
+                "logo": "https://content2.rozetka.com.ua/sellers/logo/original/459219158.jpg"
+            },
+            "label": null,
+            "tags": [],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": false,
+                "promo_price": false,
+                "status": true,
+                "bonus": false,
+                "gift": false,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": false,
+                "tags": false,
+                "pictograms": true,
+                "description": true,
+                "variables": false,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 1499,
+                "count": 4
+            },
+            "isCanonical": false
+        },
+        {
+            "id": 464301384,
+            "href": "https://rozetka.com.ua/ua/464301384/p464301384/",
+            "title": "Повербанк для ноутбука 50000 mAh Hoco портативний акумулятор 65W для телефону Чорний, ART DBBIА",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 5595,
+            "old_price": 3585,
+            "price_pcs": 128.03,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content2.rozetka.com.ua/goods/images/original/493840153.jpg",
+                "hover": "https://content.rozetka.com.ua/goods/images/original/493840163.jpg",
+                "all": [
+                    "https://content2.rozetka.com.ua/goods/images/original/493840153.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/493840163.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/493840169.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/493840180.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/493840189.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/493840196.jpg"
+                ]
+            },
+            "group": {
+                "id": 60749749,
+                "name": "umb-hoco-db81",
+                "title": "УМБ Hoco DB81"
+            },
+            "var_params": {
+                "block": {
+                    "Ємність батареї, мА·год": [
+                        {
+                            "id": 467168149,
+                            "href": "https://rozetka.com.ua/ua/467168149/p467168149/",
+                            "value": "30000",
+                            "value_id": 207893,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 30000,
+                            "isCanonical": true
+                        },
+                        {
+                            "id": 464301384,
+                            "href": "https://rozetka.com.ua/ua/464301384/p464301384/",
+                            "value": "50000",
+                            "value_id": 207907,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 50000,
+                            "isCanonical": false
+                        }
+                    ]
+                },
+                "color": [
+                    {
+                        "id": 464301384,
+                        "href": "https://rozetka.com.ua/ua/464301384/p464301384/",
+                        "active_option": true,
+                        "value": "Чорний",
+                        "value_id": 42459,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42459,
+                            "url": "",
+                            "hash": "#000"
+                        },
+                        "isCanonical": false
+                    }
+                ]
+            },
+            "category_id": 387969,
+            "discount": 0,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 218325,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 22,
+            "comments_mark": 3.7,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 218325,
+                "title": "Daily Cart",
+                "docket": "Наш магазин пропонує товари широкого вжитку, включаючи різноманітні товари для дому та корисні речі для повсякденного життя. Ми забезпечуємо високу якість продукції та доступні ціни, щоб задовольнити потреби кожного покупця<br><br>Графік роботи<br>Пн Вихідний<br>Вт-Ср 09:00-16:00<br>Чт 09:00-14:00<br>Пт-Нд 09:00-16:00\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 63,
+                "logo": null
+            },
+            "label": null,
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 4949,
+                "count": 4
+            },
+            "isCanonical": false
+        },
+        {
+            "id": 467327129,
+            "href": "https://rozetka.com.ua/ua/467327129/p467327129/",
+            "title": "Power bank Hoco DB81 30000 mAh 65W для ноутбука зі швидкою зарядкою, ліхтариком та дисплеєм 4xUSB Black",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 3540,
+            "old_price": 4425,
+            "price_pcs": 81.01,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content2.rozetka.com.ua/goods/images/original/497314759.jpg",
+                "hover": "https://content1.rozetka.com.ua/goods/images/original/497314764.jpg",
+                "all": [
+                    "https://content2.rozetka.com.ua/goods/images/original/497314759.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/497314764.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/497314773.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/497314780.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/497314792.jpg"
+                ]
+            },
+            "group": null,
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 20,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 24897,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 0,
+            "comments_mark": 0,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 24897,
+                "title": "re:Case",
+                "docket": "re:Case - інтернет магазин чохлів та захисних стекол для смартфонів.\r\nШирокий асортимент аксесуарів за доступними цінами для більшості моделей смартфонів.\r\nУ нас Ви можете придбати комплектом чохол та захисне скло для захисту Вашого гаджета.\r\nАктуальна наявність товарів, власний склад.\r\nУважні менеджери, професійна консультація та оперативна відправка.<br><br>Графік роботи<br>Пн-Нд 09:00-19:00\n",
+                "rank": "96",
+                "status": "confirmed",
+                "count_votes": 5109,
+                "logo": "https://content2.rozetka.com.ua/sellers/logo/original/459219158.jpg"
+            },
+            "label": null,
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "isCanonical": true
+        },
+        {
+            "id": 471430844,
+            "href": "https://rozetka.com.ua/ua/471430844/p471430844/",
+            "title": "Повербанк Hoco 20000 mAh зі швидкою зарядкою 22.5W power bank портативна батарея, ART 10J1A Black",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 1830,
+            "old_price": 1249,
+            "price_pcs": 42.86,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content2.rozetka.com.ua/goods/images/original/503276734.jpg",
+                "hover": "https://content2.rozetka.com.ua/goods/images/original/503276740.jpg",
+                "all": [
+                    "https://content2.rozetka.com.ua/goods/images/original/503276734.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/503276740.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/503276744.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/503276748.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/503276752.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/503276755.jpg"
+                ]
+            },
+            "group": null,
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 0,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723214,
+                    "value_name": "s-indikatorom-urovnya-zaryada",
+                    "value_title": "З індикатором рівня заряду",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 218325,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 0,
+            "comments_mark": 0,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 218325,
+                "title": "Daily Cart",
+                "docket": "Наш магазин пропонує товари широкого вжитку, включаючи різноманітні товари для дому та корисні речі для повсякденного життя. Ми забезпечуємо високу якість продукції та доступні ціни, щоб задовольнити потреби кожного покупця<br><br>Графік роботи<br>Пн Вихідний<br>Вт-Ср 09:00-16:00<br>Чт 09:00-14:00<br>Пт-Нд 09:00-16:00\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 63,
+                "logo": null
+            },
+            "label": null,
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "isCanonical": true
+        },
+        {
+            "id": 505332659,
+            "href": "https://rozetka.com.ua/ua/505332659/p505332659/",
+            "title": "Повербанк Hoco 100000 mAh 22.5W з швидкою зарядкою PD 6 USB 2 USB Type-C Powerbank з ліхтариком Чорний",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 5599,
+            "old_price": 6999,
+            "price_pcs": 128.12,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content1.rozetka.com.ua/goods/images/original/587257730.jpg",
+                "hover": "https://content.rozetka.com.ua/goods/images/original/587257733.jpg",
+                "all": [
+                    "https://content1.rozetka.com.ua/goods/images/original/587257730.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/587257733.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/587257735.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/587257739.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/587257744.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/587257749.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/587257754.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/587257759.jpg"
+                ]
+            },
+            "group": null,
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 20,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/",
+                    "values": [
+                        {
+                            "value_id": 2723221,
+                            "value_name": "s-displeem",
+                            "value_title": "З дисплеєм",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                        },
+                        {
+                            "value_id": 2723214,
+                            "value_name": "s-indikatorom-urovnya-zaryada",
+                            "value_title": "З індикатором рівня заряду",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                        }
+                    ]
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 229084,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 3,
+            "comments_mark": 5,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 229084,
+                "title": "GadgetTendsUA",
+                "docket": "Інтерен – магазин пропонує широкий вибір трендових аксесуарів до мобільних пристроів<br><br>Графік роботи<br>Пн-Пт 09:00-18:00<br>Сб-Нд Вихідний\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 54,
+                "logo": null
+            },
+            "label": null,
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "isCanonical": true
+        },
+        {
+            "id": 505332724,
+            "href": "https://rozetka.com.ua/ua/505332724/p505332724/",
+            "title": "Повербанк Hoco 100000mAh 65W з швидкою зарядкою для ноутбука PD 6 USB 2 Type-C PowerBank з ліхтариком Чорний",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 7999,
+            "old_price": 9999,
+            "price_pcs": 183.04,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content2.rozetka.com.ua/goods/images/original/587257732.jpg",
+                "hover": "https://content.rozetka.com.ua/goods/images/original/587257734.jpg",
+                "all": [
+                    "https://content2.rozetka.com.ua/goods/images/original/587257732.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/587257734.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/587257738.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/587257740.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/587257745.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/587257750.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/587257757.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/587257762.jpg"
+                ]
+            },
+            "group": null,
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 20,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/",
+                    "values": [
+                        {
+                            "value_id": 2723221,
+                            "value_name": "s-displeem",
+                            "value_title": "З дисплеєм",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                        },
+                        {
+                            "value_id": 2723214,
+                            "value_name": "s-indikatorom-urovnya-zaryada",
+                            "value_title": "З індикатором рівня заряду",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                        }
+                    ]
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 229084,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 13,
+            "comments_mark": 4.8,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 229084,
+                "title": "GadgetTendsUA",
+                "docket": "Інтерен – магазин пропонує широкий вибір трендових аксесуарів до мобільних пристроів<br><br>Графік роботи<br>Пн-Пт 09:00-18:00<br>Сб-Нд Вихідний\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 54,
+                "logo": null
+            },
+            "label": null,
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "isCanonical": true
+        },
+        {
+            "id": 520436724,
+            "href": "https://rozetka.com.ua/ua/520436724/p520436724/",
+            "title": "Повербанк УМБ XO PR240 30000mAh",
+            "brand": "XO",
+            "brand_id": 158731,
+            "price": 2694,
+            "old_price": 3202,
+            "price_pcs": 61.65,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content.rozetka.com.ua/goods/images/original/562261628.jpg",
+                "hover": "https://content.rozetka.com.ua/goods/images/original/562261630.jpg",
+                "all": [
+                    "https://content.rozetka.com.ua/goods/images/original/562261628.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/562261630.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/562261632.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/562261633.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/562261636.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/562261638.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/562261641.jpg"
+                ]
+            },
+            "group": {
+                "id": 56646806,
+                "name": "umb-xo-pr240",
+                "title": "УМБ XO PR240"
+            },
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 16,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723214,
+                    "value_name": "s-indikatorom-urovnya-zaryada",
+                    "value_title": "З індикатором рівня заряду",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "unavailable",
+            "seller_id": 57784,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 96,
+            "comments_mark": 4.2,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 57784,
+                "title": "Toyunimarket",
+                "docket": "<br><br>Графік роботи<br>Пн-Пт 10:00-17:00<br>Сб-Нд Вихідний\n",
+                "rank": "100",
+                "status": "confirmed",
+                "count_votes": 578,
+                "logo": "https://content2.rozetka.com.ua/sellers/logo/original/325795723.jpg"
+            },
+            "label": null,
+            "tags": [],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": false,
+                "promo_price": false,
+                "status": true,
+                "bonus": false,
+                "gift": false,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": false,
+                "tags": false,
+                "pictograms": true,
+                "description": true,
+                "variables": false,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 1499,
+                "count": 4
+            },
+            "isCanonical": false
+        },
+        {
+            "id": 533406834,
+            "href": "https://rozetka.com.ua/ua/533406834/p533406834/",
+            "title": "Павербанк HOCO J123A 20000 mAh 2A 2USB/Type-C Портативний зовнішній акумулятор Power Bank Black",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 1495,
+            "old_price": 1350,
+            "price_pcs": 34.21,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content.rozetka.com.ua/goods/images/original/583039170.webp",
+                "hover": "https://content2.rozetka.com.ua/goods/images/original/583039177.webp",
+                "all": [
+                    "https://content.rozetka.com.ua/goods/images/original/583039170.webp",
+                    "https://content2.rozetka.com.ua/goods/images/original/583039177.webp",
+                    "https://content1.rozetka.com.ua/goods/images/original/583039183.webp",
+                    "https://content.rozetka.com.ua/goods/images/original/583039188.webp",
+                    "https://content.rozetka.com.ua/goods/images/original/583039195.webp"
+                ]
+            },
+            "group": null,
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 0,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723214,
+                    "value_name": "s-indikatorom-urovnya-zaryada",
+                    "value_title": "З індикатором рівня заряду",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 182079,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 2,
+            "comments_mark": 4.5,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 182079,
+                "title": "GoodlyStore",
+                "docket": "Інтернет магазин “GoodlyStore” пропонує  \r\nширокий вибір оригінальних товарів для краси та догляду за тілом.\r\n<br><br>Графік роботи<br>Пн-Пт 10:00-18:00<br>Сб-Нд 11:00-17:00\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 613,
+                "logo": "https://content2.rozetka.com.ua/sellers/logo/original/387200631.png"
+            },
+            "label": null,
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "isCanonical": true
+        },
+        {
+            "id": 553803978,
+            "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei-proove-153739943/p553803978/",
+            "title": "Портативний надійний зарядний пристрій Power Bank з LED-дисплеєм Proove Guardian зі швидкою зарядкою 22.5W, 20000mAh, Metal Gray (PBG222210004)",
+            "brand": "Proove",
+            "brand_id": 525487,
+            "price": 1799,
+            "old_price": 1999,
+            "price_pcs": 42.13,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content1.rozetka.com.ua/goods/images/original/611988787.jpg",
+                "hover": "https://content2.rozetka.com.ua/goods/images/original/611988796.jpg",
+                "all": [
+                    "https://content1.rozetka.com.ua/goods/images/original/611988787.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/611988796.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/611988804.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/611988809.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/611988814.jpg"
+                ]
+            },
+            "group": {
+                "id": 56040305,
+                "name": "umb-proove-guardian",
+                "title": "УМБ Proove Guardian 22.5W"
+            },
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 10,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/",
+                    "values": [
+                        {
+                            "value_id": 2723221,
+                            "value_name": "s-displeem",
+                            "value_title": "З дисплеєм",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                        },
+                        {
+                            "value_id": 2723214,
+                            "value_name": "s-indikatorom-urovnya-zaryada",
+                            "value_title": "З індикатором рівня заряду",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                        }
+                    ]
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "unavailable",
+            "seller_id": 148597,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 23,
+            "comments_mark": 4.1,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 148597,
+                "title": "QwertyAKS",
+                "docket": "<br><br>Графік роботи<br>Пн-Пт 10:00-19:00<br>Сб-Нд Вихідний\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 286,
+                "logo": "https://content2.rozetka.com.ua/sellers/logo/original/405191127.png"
+            },
+            "label": null,
+            "tags": [],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": false,
+                "promo_price": false,
+                "status": true,
+                "bonus": false,
+                "gift": false,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": false,
+                "tags": false,
+                "pictograms": true,
+                "description": true,
+                "variables": false,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 1001,
+                "count": 16
+            },
+            "isCanonical": false
+        },
+        {
+            "id": 554440110,
+            "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei-hoco-153905522/p554440110/",
+            "title": "Павербанк для ноутбука Hoco DB81 30000 mAh 65W 4USB/2Type-C Портативний зовнішній акумулятор Power Bank зі швидкою зарядкою і ліхтариком Black",
+            "brand": "Hoco",
+            "brand_id": 2930,
+            "price": 3095,
+            "old_price": 2450,
+            "price_pcs": 70.82,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content2.rozetka.com.ua/goods/images/original/613022996.webp",
+                "hover": "https://content.rozetka.com.ua/goods/images/original/613023003.webp",
+                "all": [
+                    "https://content2.rozetka.com.ua/goods/images/original/613022996.webp",
+                    "https://content.rozetka.com.ua/goods/images/original/613023003.webp",
+                    "https://content1.rozetka.com.ua/goods/images/original/613023008.webp",
+                    "https://content.rozetka.com.ua/goods/images/original/613023013.webp",
+                    "https://content1.rozetka.com.ua/goods/images/original/613023019.webp",
+                    "https://content1.rozetka.com.ua/goods/images/original/613023026.webp",
+                    "https://content1.rozetka.com.ua/goods/images/original/613023032.webp",
+                    "https://content1.rozetka.com.ua/goods/images/original/613023038.webp",
+                    "https://content.rozetka.com.ua/goods/images/original/613023044.webp"
+                ]
+            },
+            "group": null,
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 0,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/",
+                    "values": [
+                        {
+                            "value_id": 2723221,
+                            "value_name": "s-displeem",
+                            "value_title": "З дисплеєм",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                        },
+                        {
+                            "value_id": 2723214,
+                            "value_name": "s-indikatorom-urovnya-zaryada",
+                            "value_title": "З індикатором рівня заряду",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                        }
+                    ]
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 182079,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 9,
+            "comments_mark": 3.4,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 182079,
+                "title": "GoodlyStore",
+                "docket": "Інтернет магазин “GoodlyStore” пропонує  \r\nширокий вибір оригінальних товарів для краси та догляду за тілом.\r\n<br><br>Графік роботи<br>Пн-Пт 10:00-18:00<br>Сб-Нд 11:00-17:00\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 613,
+                "logo": "https://content2.rozetka.com.ua/sellers/logo/original/387200631.png"
+            },
+            "label": null,
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "isCanonical": true
+        },
+        {
+            "id": 566890633,
+            "href": "https://rozetka.com.ua/ua/566890633/p566890633/",
+            "title": "Повербанк умб 20000 mah зі швидкою зарядкою 22.5w fast charging pd та вбудованими 2 кабелями usb type c lightning Torima power delivery bank TRM-1025 для телефону смартфона айпада powerbank зовнішній акумулятор повербанки великої ємності чорний",
+            "brand": "Torima",
+            "brand_id": 652645,
+            "price": 1995,
+            "old_price": 2699,
+            "price_pcs": 45.65,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content2.rozetka.com.ua/goods/images/original/639685707.jpg",
+                "hover": "https://content.rozetka.com.ua/goods/images/original/639685709.jpg",
+                "all": [
+                    "https://content2.rozetka.com.ua/goods/images/original/639685707.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/639685709.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/639685711.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/639685713.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/639685715.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/639685716.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/639685720.jpg"
+                ]
+            },
+            "group": {
+                "id": 71657353,
+                "name": "umb-torima-trm-1035",
+                "title": "УМБ Torima TRM-1035"
+            },
+            "var_params": {
+                "block": {
+                    "Ємність батареї, мА·год": [
+                        {
+                            "id": 566890633,
+                            "href": "https://rozetka.com.ua/ua/566890633/p566890633/",
+                            "value": "20000",
+                            "value_id": 72394,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 1,
+                            "order": 20000,
+                            "isCanonical": true
+                        }
+                    ]
+                },
+                "color": [
+                    {
+                        "id": 566890633,
+                        "href": "https://rozetka.com.ua/ua/566890633/p566890633/",
+                        "active_option": true,
+                        "value": "Чорний",
+                        "value_id": 42459,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 1,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42459,
+                            "url": "",
+                            "hash": "#000"
+                        },
+                        "isCanonical": true
+                    }
+                ]
+            },
+            "category_id": 387969,
+            "discount": 26,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 70718,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 15,
+            "comments_mark": 5,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 1,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 70718,
+                "title": "KayDzen",
+                "docket": "<br><br>Графік роботи<br>Пн-Пт 08:00-21:00<br>Сб-Нд 09:00-20:00\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 4722,
+                "logo": "https://content1.rozetka.com.ua/sellers/logo/original/434998497.jpg"
+            },
+            "label": null,
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 1999,
+                "count": 1
+            },
+            "isCanonical": true
+        },
+        {
+            "id": 567062611,
+            "href": "https://rozetka.com.ua/ua/567062611/p567062611/",
+            "title": "Портативна Батарея Proove Guardian 22.5W 10000mAh Metal Gray",
+            "brand": "Proove",
+            "brand_id": 525487,
+            "price": 1199,
+            "old_price": 0,
+            "price_pcs": 28.08,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content1.rozetka.com.ua/goods/images/original/638468625.jpg",
+                "hover": "https://content2.rozetka.com.ua/goods/images/original/638468632.webp",
+                "all": [
+                    "https://content1.rozetka.com.ua/goods/images/original/638468625.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/638468632.webp",
+                    "https://content2.rozetka.com.ua/goods/images/original/638468636.webp",
+                    "https://content1.rozetka.com.ua/goods/images/original/638468639.webp"
+                ]
+            },
+            "group": {
+                "id": 56040305,
+                "name": "umb-proove-guardian",
+                "title": "УМБ Proove Guardian 22.5W"
+            },
+            "var_params": {
+                "block": {
+                    "Ємність батареї, мА·год": [
+                        {
+                            "id": 567062611,
+                            "href": "https://rozetka.com.ua/ua/567062611/p567062611/",
+                            "value": "10000",
+                            "value_id": 65075,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 10000,
+                            "isCanonical": false
+                        },
+                        {
+                            "id": 494344489,
+                            "href": "https://rozetka.com.ua/ua/494344489/p494344489/",
+                            "value": "20000",
+                            "value_id": 72394,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 20000,
+                            "isCanonical": false
+                        },
+                        {
+                            "id": 460283829,
+                            "href": "https://rozetka.com.ua/ua/460283829/p460283829/",
+                            "value": "30000",
+                            "value_id": 207893,
+                            "option_id": 39970,
+                            "option_name": "39970",
+                            "is_group_primary": 0,
+                            "order": 30000,
+                            "isCanonical": false
+                        }
+                    ]
+                },
+                "color": [
+                    {
+                        "id": 570225142,
+                        "href": "https://rozetka.com.ua/ua/proove-pbg222210004/p570225142/",
+                        "active_option": false,
+                        "value": "Світло-сірий",
+                        "value_id": 888573,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 888573,
+                            "url": "",
+                            "hash": "#999"
+                        },
+                        "isCanonical": false
+                    },
+                    {
+                        "id": 567062611,
+                        "href": "https://rozetka.com.ua/ua/567062611/p567062611/",
+                        "active_option": true,
+                        "value": "Сірий",
+                        "value_id": 42539,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42539,
+                            "url": "",
+                            "hash": "#666"
+                        },
+                        "isCanonical": false
+                    },
+                    {
+                        "id": 454609427,
+                        "href": "https://rozetka.com.ua/ua/454609427/p454609427/",
+                        "active_option": false,
+                        "value": "Чорний",
+                        "value_id": 42459,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 42459,
+                            "url": "",
+                            "hash": "#000"
+                        },
+                        "isCanonical": false
+                    },
+                    {
+                        "id": 460283824,
+                        "href": "https://rozetka.com.ua/ua/460283824/p460283824/",
+                        "active_option": false,
+                        "value": "Чорно-сірий",
+                        "value_id": 2456196,
+                        "option_id": 34329,
+                        "option_name": "34329",
+                        "is_group_primary": 0,
+                        "order": 16777215,
+                        "color": {
+                            "id": 2456196,
+                            "url": "https://content1.rozetka.com.ua/goods_details_values/images/original/197004946.jpg",
+                            "hash": "#000"
+                        },
+                        "isCanonical": false
+                    }
+                ]
+            },
+            "category_id": 387969,
+            "discount": 0,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723221,
+                    "value_name": "s-displeem",
+                    "value_title": "З дисплеєм",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/",
+                    "values": [
+                        {
+                            "value_id": 2723221,
+                            "value_name": "s-displeem",
+                            "value_title": "З дисплеєм",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-displeem/"
+                        },
+                        {
+                            "value_id": 2723214,
+                            "value_name": "s-indikatorom-urovnya-zaryada",
+                            "value_title": "З індикатором рівня заряду",
+                            "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                        }
+                    ]
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "available",
+            "seller_id": 222419,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 23,
+            "comments_mark": 4.1,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 222419,
+                "title": "pGame",
+                "docket": "Ласкаво просимо до нашої компанії, яка спеціалізується на продажу нової та вживаної ігрової техніки.<br><br>Графік роботи<br>Пн-Пт 09:00-19:00<br>Сб-Нд 10:00-18:00\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 196,
+                "logo": null
+            },
+            "label": {
+                "id": 11,
+                "name": "made_in_ukraine",
+                "text": " ",
+                "color": "#fff218",
+                "color_font": "#ffd600"
+            },
+            "tags": [
+                {
+                    "id": 100764,
+                    "title": "Безкоштовна доставка з поштоматів Нової пошти",
+                    "icon": "https://content2.rozetka.com.ua/goods_tags/images_ua/original/536707624.png",
+                    "show_in_catalog": 1,
+                    "show_in_details": 1,
+                    "is_special_tag": 1,
+                    "view_position": 2,
+                    "has_description": 1,
+                    "is_tile_top": true,
+                    "announce": null
+                }
+            ],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": true,
+                "promo_price": true,
+                "status": true,
+                "bonus": true,
+                "gift": true,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": true,
+                "tags": true,
+                "pictograms": true,
+                "description": true,
+                "variables": true,
+                "hide_rating_review": false
+            },
+            "same_offers": {
+                "min_price": 1049,
+                "count": 10
+            },
+            "isCanonical": false
+        },
+        {
+            "id": 567810715,
+            "href": "https://rozetka.com.ua/ua/567810715/p567810715/",
+            "title": "Ups для роутера 30000 mah повербанк до 30 годин автономної роботи Torima джерело безперебійного живлення упс + дбж підвищуючий кабель перехідник usb dc 9v або 12v юпс + швидка зарядка з кабелем",
+            "brand": "Torima",
+            "brand_id": 652645,
+            "price": 2799,
+            "old_price": 3195,
+            "price_pcs": 65.55,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content1.rozetka.com.ua/goods/images/original/640582288.png",
+                "hover": "https://content2.rozetka.com.ua/goods/images/original/640582296.png",
+                "all": [
+                    "https://content1.rozetka.com.ua/goods/images/original/640582288.png",
+                    "https://content2.rozetka.com.ua/goods/images/original/640582296.png",
+                    "https://content1.rozetka.com.ua/goods/images/original/640582301.png",
+                    "https://content2.rozetka.com.ua/goods/images/original/640582305.png",
+                    "https://content1.rozetka.com.ua/goods/images/original/640582309.png",
+                    "https://content2.rozetka.com.ua/goods/images/original/640582313.png",
+                    "https://content2.rozetka.com.ua/goods/images/original/640582322.png"
+                ]
+            },
+            "group": null,
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 12,
+            "docket": "",
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "unavailable",
+            "seller_id": 70718,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 6,
+            "comments_mark": 4.2,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 70718,
+                "title": "KayDzen",
+                "docket": "<br><br>Графік роботи<br>Пн-Пт 08:00-21:00<br>Сб-Нд 09:00-20:00\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 4722,
+                "logo": "https://content1.rozetka.com.ua/sellers/logo/original/434998497.jpg"
+            },
+            "label": null,
+            "tags": [],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": false,
+                "promo_price": false,
+                "status": true,
+                "bonus": false,
+                "gift": false,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": false,
+                "tags": false,
+                "pictograms": true,
+                "description": true,
+                "variables": false,
+                "hide_rating_review": false
+            },
+            "isCanonical": true
+        },
+        {
+            "id": 569751688,
+            "href": "https://rozetka.com.ua/ua/569751688/p569751688/",
+            "title": "Портативний повербанк Power Bank UKC Universal 50000 mAh з LCD екраном, 4 USB для заряджання пристроїв",
+            "brand": "UKC",
+            "brand_id": 160238,
+            "price": 690,
+            "old_price": 2162,
+            "price_pcs": 16.16,
+            "min_month_price": 0,
+            "dispatch": false,
+            "preorder": false,
+            "images": {
+                "main": "https://content2.rozetka.com.ua/goods/images/original/644042175.jpg",
+                "hover": "https://content1.rozetka.com.ua/goods/images/original/644042177.jpg",
+                "all": [
+                    "https://content2.rozetka.com.ua/goods/images/original/644042175.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/644042177.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/644042179.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/644042181.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/644042183.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/644042187.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/644042190.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/644042194.jpg",
+                    "https://content2.rozetka.com.ua/goods/images/original/644042198.jpg",
+                    "https://content.rozetka.com.ua/goods/images/original/644042201.jpg",
+                    "https://content1.rozetka.com.ua/goods/images/original/644042205.jpg"
+                ]
+            },
+            "group": null,
+            "var_params": {},
+            "category_id": 387969,
+            "discount": 68,
+            "docket": [
+                {
+                    "option_id": 215436,
+                    "option_name": "indikatsiya-215436",
+                    "option_title": "Індикація",
+                    "value_id": 2723214,
+                    "value_name": "s-indikatorom-urovnya-zaryada",
+                    "value_title": "З індикатором рівня заряду",
+                    "href": "/ua/universalnye-mobilnye-batarei/c387969/indikatsiya-215436=s-indikatorom-urovnya-zaryada/"
+                }
+            ],
+            "merchant_id": 17,
+            "mpath": ".4627949.4674582.387969.",
+            "parent_category_id": 4627949,
+            "pl_bonus_charge_pcs": 0,
+            "pl_use_instant_bonus": 0,
+            "sell_status": "unavailable",
+            "seller_id": 148723,
+            "state": "new",
+            "status": "active",
+            "status_inherited": "active",
+            "title_suffix": "",
+            "premium": {
+                "available": true
+            },
+            "comments_amount": 2,
+            "comments_mark": 1,
+            "gift": null,
+            "is_docket": false,
+            "cart_quantity": {
+                "min": 0,
+                "max": 0
+            },
+            "is_group_primary": 0,
+            "category": {
+                "id": 387969,
+                "href": "https://rozetka.com.ua/ua/universalnye-mobilnye-batarei/c387969/",
+                "mpath": ".4627949.4674582.",
+                "title": "Універсальні мобільні батареї",
+                "root_category_title": "Смартфони, ТВ і електроніка",
+                "rz_mpath": ".4627949.4674582.387969."
+            },
+            "seller": {
+                "id": 148723,
+                "title": "Shopwin",
+                "docket": "<br><br>Графік роботи<br>Пн-Пт 09:00-20:00<br>Сб 09:00-19:00<br>Нд 10:00-19:00\n",
+                "rank": "0",
+                "status": "confirmed",
+                "count_votes": 490,
+                "logo": "https://content1.rozetka.com.ua/sellers/logo/original/450958316.png"
+            },
+            "label": null,
+            "tags": [],
+            "config": {
+                "title": true,
+                "brand": false,
+                "image": true,
+                "price": true,
+                "old_price": false,
+                "promo_price": false,
+                "status": true,
+                "bonus": false,
+                "gift": false,
+                "rating": true,
+                "wishlist_button": true,
+                "compare_button": true,
+                "buy_button": false,
+                "tags": false,
+                "pictograms": true,
+                "description": true,
+                "variables": false,
+                "hide_rating_review": false
+            },
+            "isCanonical": true
+        }
+    ],
+    "errors": []
+}
