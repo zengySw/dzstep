@@ -174,7 +174,7 @@ public:
         // боковая сторона = высота / sin(60°)
         double side = m_value2 / std::sin(M_PI / 3.0);
         std::cout << std::fixed << std::setprecision(4)
-                  << "Периметр        : " << 2.0 * (m_value1 + side) << "\n";
+                  << "Периметр        1: " << 2.0 * (m_value1 + side) << "\n";
     }
 
     void Print() const override
